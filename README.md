@@ -4,4 +4,13 @@
 1. open browser at http://localhost:5801/ and click `Connect` to connect to the virtual desktop
 1. work on the app as usual (you can find your local files under `data/`)
 1. closing the app will stop and remove the container or you can remove container manualy
+## Instructions to start the algorihtm
+1. When launching the application, select Keywords file (.txt) from /app/pystsup/test/acm.txt
+1. Then select Students File from /app/data/Students table.xlxs
+1. Then secect Course File from /app/data/Course table.xlxs
+1. Then select directory where to save the results (.xlxs)
+1. Press button "Start Genetic Algorithm" to start algorithm
+1. Wait till algorithm stop works (you can monitor the operation of the algorithm in the terminal)
+1. Press options to change algorihtm parameters
+
 
