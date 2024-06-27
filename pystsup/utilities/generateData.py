@@ -271,25 +271,6 @@ def writeFrontier(filename, front, metricData, courses, students):
     ws["A" + str(n + 4)] = "Diversity Metric"
     ws["B" + str(n + 4)] = metricData['diversity']
 
-    chart = ScatterChart(scatterStyle='marker')
-    chart.title = "Pareto Optimal Frontier"
-    chart.x_axis.title = 'Student Fitness (Fst)'
-    chart.y_axis.title = 'course Fitness (Fsup)'
-    chart.style = 3
-
-    xvalues = Reference(ws, min_col=2, min_row=2, max_row=n + 1)
-
-    yvalues = Reference(ws, min_col=3, min_row=2, max_row=n + 1)
-
-    series = Series(yvalues, xvalues)
-
-    series.marker = xl.chart.marker.Marker('circle')
-    series.graphicalProperties.line.noFill = True
-    chart.series.append(series)
-    chart.legend = None
-
-    ws.add_chart(chart, "A" + str(n + 7))
-
     ws.column_dimensions['A'].width = 17
     ws.column_dimensions['B'].width = 17
     ws.column_dimensions['C'].width = 17
