@@ -17,6 +17,6 @@ cx_Freeze.setup(
     options={"build_exe": {"packages": ["tkinter", "numpy", "pystsup", "pyomo", "pygmo", "hopcroftkarp", "openpyxl"],
                            "include_files": ["configGA.json"]}},
     version="1.0.1",
-    description="AI Tool for Student course Allocation",
+    description="Student Сourse Allocation",
     executables=executables
 )
