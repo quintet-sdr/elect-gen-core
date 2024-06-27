@@ -1,0 +1,20 @@
+ACM Computing Classification System
+	Subjects
+	    Multi-threaded programming in C/C++ (Russian only)
+        Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics
+        MLOps engineering
+        Introduction to Neuroscience
+        Introduction to DevOps (DSAI Only)
+        Introduction to Prototyping
+        Branding & Marketing in IT industry
+        Introduction to 3D Modeling
+        Computer chess
+        Deep Learning for Search
+        Front-end Web Development
+        Real-Time Scheduling Theory
+        Architecture of Computing Devices
+        introduction to robotics operating system: basics, motion, and vision
+        Applied Optimization
+        The Security and Interpretability of Machine Learning
+        Deep Dive into system design
+        Quantum Machine Learning
