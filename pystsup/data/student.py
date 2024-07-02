@@ -1,10 +1,11 @@
 class Student:
 
-    def __init__(self, stuID, keywords, realID=None, name=None):
+    def __init__(self, stuID, keywords, realID=None, name=None, gpa=None):
         self._keywords = keywords
         self._stuID = stuID
         self._realID = realID
         self._name = name
+        self._gpa = gpa
 
     def getStudentID(self):
         return self._stuID
@@ -17,3 +18,6 @@ class Student:
 
     def getKeywords(self):
         return self._keywords
+
+    def getGPA(self):
+        return self._gpa

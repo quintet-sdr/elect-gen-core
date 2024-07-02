@@ -43,9 +43,10 @@ def getData(stuFile, supFile, keywordsFile="pystsup/test/acm.txt"):
 
         realID = row[0].value
         name = row[1].value
+        gpa = float(row[2].value)
         keywords = []
 
-        for i in range(2, len(row)):
+        for i in range(3, len(row)):
             val = row[i].value
             val = val.lower().strip()
             if val != None:
@@ -57,8 +58,10 @@ def getData(stuFile, supFile, keywordsFile="pystsup/test/acm.txt"):
             rank += 1
             stu_List[rank] = [kw, getPath(kw, topicNames, topicPaths, topicIDs)]
 
-        studentObject = Student(stu, stu_List, realID, name)
+        studentObject = Student(stu, stu_List, realID, name, gpa)
         students[stu] = studentObject
+
+    students = dict(sorted(students.items(), key=lambda item: item[1].getGPA(), reverse=True))
 
     for row in supRows:
 
@@ -167,8 +170,7 @@ def createExcelFile(filename, data, student):
     wb = Workbook()
     ws = wb.active
     if student:
-        heading = ("Student ID", "Student Name", "Keyword 1", "Keyword 2", "Keyword 3", "Keyword 4", "Keyword 5")
-
+        heading = ("Student ID", "Student Name", "GPA", "Keyword 1", "Keyword 2", "Keyword 3", "Keyword 4", "Keyword 5")
     else:
         heading = ("course ID", "course Name", "Quota", "Keyword 1", "Keyword 2", "Keyword 3", "Keyword 4", "Keyword 5")
 
@@ -223,7 +225,7 @@ def writeFrontier(filename, front, metricData, courses, students):
 
     if len(front) > 1:
         front = sorted(front, key=lambda x: (
-                    ((x.getFsup() - minFsup) / (maxFsup - minFsup)) * ((x.getFst() - minFst) / (maxFst - minFst))),
+                ((x.getFsup() - minFsup) / (maxFsup - minFsup)) * ((x.getFst() - minFst) / (maxFst - minFst))),
                        reverse=True)
 
     count = 1
