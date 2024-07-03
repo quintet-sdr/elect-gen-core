@@ -231,8 +231,8 @@ def writeFrontier(filename, front, metricData, courses, students):
     count = 1
 
     sheetnames = []
-    widths = [25, 25, 15, 15, 15]
-    letters = ['A', 'B', 'C', 'D', 'E']
+    widths = [25, 25, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+    letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
 
     for sol in front:
 
@@ -243,9 +243,41 @@ def writeFrontier(filename, front, metricData, courses, students):
 
         supEdges = sol.getGraph().getEdges()
 
-        heading = ("course Name", "Student Name", "course ID", "Student ID", "Priority")
+        heading = ("course Name", "Student Name", "course ID", "Student ID", "Priority", "First Priority", "Second Priority", "Third Priority", "Fourth Priority", "Fifth Priority", "No Priority")
+
+        firstPriority = 0
+        secondPriority = 0
+        thirdPriority = 0
+        fourthPriority = 0
+        fifthPriority = 0
+        noPriority = 0
 
         ws.append(heading)
+
+        for sup in supEdges:
+            supName = courses[sup].getcourseName()
+            for stu in supEdges[sup]:
+                keywords = students[stu].getKeywords()
+                priority = -1
+                for rank, keyword in keywords.items():
+                    if supName.lower() in keyword[0].lower():
+                        priority = rank
+                        break
+                if priority == 1:
+                    firstPriority += 1
+                elif priority == 2:
+                    secondPriority += 1
+                elif priority == 3:
+                    thirdPriority += 1
+                elif priority == 4:
+                    fourthPriority += 1
+                elif priority == 5:
+                    fifthPriority += 1
+                else:
+                    noPriority += 1
+
+        ws.append((None, None, None, None, None, firstPriority, secondPriority, thirdPriority, fourthPriority, fifthPriority, noPriority))
+        ws.append((None, None, None, None, None, None, None, None, None, None, None))
 
         for sup in supEdges:
 
