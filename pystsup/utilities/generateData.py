@@ -231,8 +231,8 @@ def writeFrontier(filename, front, metricData, courses, students):
     count = 1
 
     sheetnames = []
-    widths = [25, 25, 15, 15]
-    letters = ['A', 'B', 'C', 'D']
+    widths = [25, 25, 15, 15, 15]
+    letters = ['A', 'B', 'C', 'D', 'E']
 
     for sol in front:
 
@@ -243,7 +243,7 @@ def writeFrontier(filename, front, metricData, courses, students):
 
         supEdges = sol.getGraph().getEdges()
 
-        heading = ("course Name", "Student Name", "course ID", "Student ID")
+        heading = ("course Name", "Student Name", "course ID", "Student ID", "Priority")
 
         ws.append(heading)
 
@@ -255,8 +255,16 @@ def writeFrontier(filename, front, metricData, courses, students):
             for stu in supEdges[sup]:
                 stuName = students[stu].getStudentName()
                 stuID = students[stu].getRealID()
+                keywords = students[stu].getKeywords()
 
-                tempRow = (supName, stuName, supID, stuID)
+                # Check if the course is in the student's keywords
+                priority = -1
+                for rank, keyword in keywords.items():
+                    if supName.lower() in keyword[0].lower():
+                        priority = rank
+                        break
+
+                tempRow = (supName, stuName, supID, stuID, priority)
 
                 ws.append(tempRow)
 
