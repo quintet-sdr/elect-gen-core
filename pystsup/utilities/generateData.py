@@ -75,14 +75,12 @@ def getData(stuFile, supFile, keywordsFile="pystsup/test/acm.txt"):
         name = row[1].value
         quota = int(row[2].value)
         keywords = []
-
-        for i in range(3, len(row)):
-            val = row[i].value
-            val = val.lower().strip()
-            if val != None:
-                keywords.append(val)
-            else:
-                keywords.append(topicIDs[1])
+        val = row[3].value
+        val = val.lower().strip()
+        if val != None:
+            keywords.append(val)
+        else:
+            keywords.append(topicIDs[1])
 
         for kw in keywords:
             rank += 1
@@ -140,19 +138,17 @@ def scanInputData(stuFile, supFile, keywordsFile):
     for i in range(len(supRows)):
 
         row = supRows[i]
+        val = row[3].value
+        if val == None:
+            continue
+        val = val.lower().strip()
 
-        for j in range(3, len(row)):
-            val = row[j].value
-            if (val == None):
-                continue
-            val = val.lower().strip()
-
-            if val not in topicNames:
-                # print(f"Found Error in Row {i+1} Keyword {j-2} = {val}")
-                errorSup += 1
-                supSheet[f"{chr(65 + j)}{i + 2}"].fill = redFill
-            else:
-                supSheet[f"{chr(65 + j)}{i + 2}"].fill = nofill
+        if val not in topicNames:
+            # print(f"Found Error in Row {i+1} Keyword {j-2} = {val}")
+            errorSup += 1
+            supSheet[f"{chr(65 + j)}{i + 2}"].fill = redFill
+        else:
+            supSheet[f"{chr(65 + j)}{i + 2}"].fill = nofill
 
     print("\nScan Complete..\n==========================")
     print(f"Total Errors Found in Student Input File = {errorStu}")
@@ -243,7 +239,9 @@ def writeFrontier(filename, front, metricData, courses, students):
 
         supEdges = sol.getGraph().getEdges()
 
-        heading = ("course Name", "Student Name", "course ID", "Student ID", "Priority", "First Priority", "Second Priority", "Third Priority", "Fourth Priority", "Fifth Priority", "No Priority")
+        heading = (
+        "course Name", "Student Name", "course ID", "Student ID", "Priority", "First Priority", "Second Priority",
+        "Third Priority", "Fourth Priority", "Fifth Priority", "No Priority")
 
         firstPriority = 0
         secondPriority = 0
@@ -276,7 +274,8 @@ def writeFrontier(filename, front, metricData, courses, students):
                 else:
                     noPriority += 1
 
-        ws.append((None, None, None, None, None, firstPriority, secondPriority, thirdPriority, fourthPriority, fifthPriority, noPriority))
+        ws.append((None, None, None, None, None, firstPriority, secondPriority, thirdPriority, fourthPriority,
+                   fifthPriority, noPriority))
         ws.append((None, None, None, None, None, None, None, None, None, None, None))
 
         for sup in supEdges:

@@ -437,5 +437,4 @@ def kPoint(solution1, solution2, courses, students, k=5):
     for i in range(len(students)):
         graph.addEdge(result[i], students[i])
 
-    fixSolution(graph, courses, students)
     return Solution(graph)

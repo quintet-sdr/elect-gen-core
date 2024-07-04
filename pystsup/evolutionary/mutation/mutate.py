@@ -53,18 +53,18 @@ def mutate(solution, courses, probability, swapProbability, transferProbability)
                             canTransferTo.remove(toSup)
 
 
-                    else:
-
-                        # Peform Swap Operation
-
-                        allcourses.remove(sup)
-
-                        sup2 = random.choice(list(allcourses))
-
-                        stu2 = random.choice(graph.getStudents(sup2))
-
-                        graph.swapStudents(stu, sup, stu2, sup2)
-
-                        allcourses.add(sup)
+                    # else:
+                    #
+                    #     # Peform Swap Operation
+                    #
+                    #     allcourses.remove(sup)
+                    #
+                    #     sup2 = random.choice(list(allcourses))
+                    #
+                    #     stu2 = random.choice(graph.getStudents(sup2))
+                    #
+                    #     graph.swapStudents(stu, sup, stu2, sup2)
+                    #
+                    #     allcourses.add(sup)
 
     return Solution(graph)
