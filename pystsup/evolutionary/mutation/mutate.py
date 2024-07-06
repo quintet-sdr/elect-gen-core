@@ -36,12 +36,9 @@ def mutate(solution, courses, probability, swapProbability, transferProbability)
 
                     m = random.random()
 
-                    if m <= transferProbability and (graph.getcourseDegree(sup) > 1) and not (
+                    if m <= transferProbability and (graph.getCourseDegree(sup) > 1) and not (
                             len(canTransferTo) == 1 and (sup in canTransferTo)) and len(canTransferTo) > 0:
                         # Perform Transfer Operation
-
-                        if sup in canTransferTo:
-                            canTransferTo.remove(sup)
 
                         toSup = random.choice(list(canTransferTo))
 
@@ -49,7 +46,7 @@ def mutate(solution, courses, probability, swapProbability, transferProbability)
 
                         canTransferTo.add(sup)
 
-                        if not (graph.getcourseDegree(toSup) < courses[toSup].getQuota()):
+                        if not (graph.getCourseDegree(toSup) < courses[toSup].getQuota()):
                             canTransferTo.remove(toSup)
 
 

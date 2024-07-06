@@ -19,7 +19,7 @@ class Course:
         
         return self._quota
 
-    def getcourseName(self):
+    def getCourseName(self):
         
         return self._name
 

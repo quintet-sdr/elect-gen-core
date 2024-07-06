@@ -1,5 +1,5 @@
 {
-    "genLimit": 10,
+    "genLimit": 30,
     "populationSize": 128,
     "mutationProbability": 0.1,
     "swapProbability": 0.25,

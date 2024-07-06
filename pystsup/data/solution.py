@@ -204,8 +204,11 @@ class Solution:
     def getStructuralFitness(self, courses):
         edges = self._graph.getEdges()
         workloads = []
+        # print(courses)
         for sup in courses:
             quota = courses[sup].getQuota()
+            # print(sup, end="\n---\n")
+            # print(edges, end="\n---\n")
             students_allocated = edges[sup]
             workloads.append(len(students_allocated) / quota)
         wf = numpy.std(workloads)
@@ -286,7 +289,7 @@ class Solution:
 
         for sup in supEdges:
 
-            val = graph.getcourseDegree(sup)
+            val = graph.getCourseDegree(sup)
 
             # if courses degree in solution is greater than their quota limit or 0,then it's not a valid solution.
 
@@ -297,7 +300,7 @@ class Solution:
 
                 # If course doesn't exist in their student list or the number of courses for a student is not 1, then it's not a valid solution.
 
-                if (sup not in graph.getcourses(stu)) or (graph.getStudentDegree(stu) != 1):
+                if (sup not in graph.getСourses(stu)) or (graph.getStudentDegree(stu) != 1):
                     return False
 
         return True

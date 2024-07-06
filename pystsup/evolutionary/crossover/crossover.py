@@ -233,7 +233,7 @@ def crossover(solution1, solution2, courses=None, students=None, k=None):
             # If the course degree is not equal to degree we want
             if counts[sup] != structure[sup]:
 
-                supDegree = mergedGraph.getcourseDegree(sup)
+                supDegree = mergedGraph.getCourseDegree(sup)
                 reqSupDegree = structure[sup]
                 students = mergedGraph.getStudents(sup)
 

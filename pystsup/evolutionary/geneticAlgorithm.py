@@ -30,6 +30,7 @@ class GeneticAlgorithm:
             # Generate random solution, calculate and set Fst and Fsup values, then append to population list until its of the size we want.
 
             new = Solution.generateRandomSolution(self.students, self.courses)
+            print(f"New Solution {count} Generated..")
             new.calcFitness(self.students, self.courses, self.rankWeights, self.fitnessCache)
             population.append(new)
             count += 1
@@ -195,10 +196,10 @@ class GeneticAlgorithm:
               k=None):
 
         # Initialize the population
-
+        print("Initializing Population..")
         if not population:
             population = self.initializePopulation(popSize)
-
+        print("Population Initialized..")
         tic1 = time.time()
 
         fronts = self.fast_non_dominated_sort(population)
@@ -229,7 +230,7 @@ class GeneticAlgorithm:
 
         tic1 = time.time()
 
-        while (no_impr <= 20):
+        while no_impr <= genLimit:
 
             print("Generation " + str(genCount) + " no improvement in " + str(no_impr))
 

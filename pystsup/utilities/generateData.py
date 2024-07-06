@@ -253,7 +253,7 @@ def writeFrontier(filename, front, metricData, courses, students):
         ws.append(heading)
 
         for sup in supEdges:
-            supName = courses[sup].getcourseName()
+            supName = courses[sup].getCourseName()
             for stu in supEdges[sup]:
                 keywords = students[stu].getKeywords()
                 priority = -1
@@ -280,7 +280,7 @@ def writeFrontier(filename, front, metricData, courses, students):
 
         for sup in supEdges:
 
-            supName = courses[sup].getcourseName()
+            supName = courses[sup].getCourseName()
             supID = courses[sup].getRealID()
 
             for stu in supEdges[sup]:
