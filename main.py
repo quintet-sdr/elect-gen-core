@@ -176,15 +176,16 @@ while (noImprovements < 1000):
         if student.finalPriority != 1 and student.finalPriority != 7:
             index = newStudents.index(student)
             newStudents[index] = student
-            newStudents[index].finalPriority-=1
-            newStudents[index].finalCourse=newStudents[index].availableCourses[min(newStudents[index].finalPriority,len(newStudents[index].availableCourses)-1)].name
-            newStudents[index].isDistributed=True
-    Distribute(newStudents,errorCourse)
-    newCost=costFunction(newStudents)
-    if (newCost<cost):
-        students=newStudents.copy()
-        courses=newCourses
-        noImprovements=0
+            newStudents[index].finalPriority -= 1
+            newStudents[index].finalCourse = newStudents[index].availableCourses[
+                min(newStudents[index].finalPriority, len(newStudents[index].availableCourses) - 1)].name
+            newStudents[index].isDistributed = True
+    Distribute(newStudents, errorCourse)
+    newCost = costFunction(newStudents)
+    if newCost < cost:
+        students = newStudents.copy()
+        courses = newCourses
+        noImprovements = 0
     else:
-        noImprovements+=1
+        noImprovements += 1
 writeResults(students)
