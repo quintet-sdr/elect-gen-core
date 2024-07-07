@@ -29,7 +29,7 @@ unittests:
      
     - pip install -r requirements.txt   
      
-    - python -m unittest discover -s . -p 'tests.py'   
+    - pytest --junitxml=report.xml
  
   cache: 
     paths: 
