@@ -1,3 +1,5 @@
+import os
+
 from openpyxl import load_workbook
 import xlwt
 import random
@@ -92,6 +94,8 @@ def writeResults(students):
         totalResults[student.finalPriority - 1] += 1
     for j in range(0, 7):
         resultsSheetResults.write(1, j + 5, totalResults[j])
+    if "Results.xlsx" in os.listdir():
+        os.remove("Results.xlsx")
     results.save("Results.xlsx")
 
 
