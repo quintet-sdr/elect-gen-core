@@ -3,6 +3,7 @@ lint:
   image: python:3.9
   before_script:
     - mkdir -p public/badges public/lint
+    - echo undefined > public/badges/$CI_JOB_NAME.score
     - pip install pylint pylint-gitlab anybadge
   script:
     - pylint --exit-zero --output-format=text $(find -type f -name "*.py" ! -path "**/.venv/**") | tee /tmp/pylint.txt
@@ -11,7 +12,9 @@ lint:
     - pylint --exit-zero --output-format=pylint_gitlab.GitlabPagesHtmlReporter $(find -type f -name "*.py" ! -path "**/.venv/**") > public/lint/index.html
   after_script:
     - anybadge --overwrite --label $CI_JOB_NAME --value=$(cat public/badges/$CI_JOB_NAME.score) --file=public/badges/$CI_JOB_NAME.svg 4=red 6=orange 8=yellow 10=green
-    - echo "Your score is: $(cat public/badges/$CI_JOB_NAME.score)"
+    - |
+      echo "Your score is: $(cat public/badges/$CI_JOB_NAME.score)" 
+
   artifacts:
     paths:
       - public
@@ -25,12 +28,12 @@ unittests:
   before_script:
     - pip install -r requirements.txt
   script:
-    - python -m pytest --junitxml=./report.xml
+  - python -m pytest --junitxml=report.xml
   artifacts:
-    when: always
-    reports:
-      junit: report.xml
-    expire_in: 2 weeks
+      when: always
+      reports:
+        junit: report.xml
+      expire_in: 2 weeks
   cache:
     paths:
       - ~/.cache/pip
@@ -39,10 +42,7 @@ pages:
   stage: deploy
   image: alpine:latest
   script:
-    - mkdir -p public/reports
-    - mv public/lint/index.html public/reports/lint_report.html
-    - mv report.xml public/reports/
-    - echo "<html><body><h1>Reports</h1><ul><li><a href='reports/lint_report.html'>Lint Report</a></li><li><a href='reports/report.xml'>Test Report</a></li></ul></body></html>" > public/index.html
+    - echo
   artifacts:
     paths:
       - public
