@@ -31,24 +31,20 @@ unittests:
   script:
   - python -m pytest . --junitxml=report.xml
   artifacts:
-    when: always
-    paths:
-      - public
     reports:
-      junit: report.xml
-    expire_in: 2 weeks
-  cache:
+      junit: reports/lint-report.xml
     paths:
-      - ~/.cache/pip
+      - reports/
+    when: always
 
-pages:
-  stage: deploy
-  image: alpine:latest
-  script:
-    - echo
-  artifacts:
-    paths:
-      - public
-  only:
-    refs:
-      - master
+#pages:
+#  stage: deploy
+#  image: alpine:latest
+#  script:
+#    - echo
+#  artifacts:
+#    paths:
+#      - public
+#  only:
+#    refs:
+#      - master
