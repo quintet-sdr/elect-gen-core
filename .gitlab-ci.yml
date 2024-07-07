@@ -32,9 +32,9 @@ unittests:
   - python -m  pytest tests.py --junitxml=report.xml
   artifacts:
     reports:
-      junit: public/lint-report.xml
+      junit: public/tests/lint-report.xml
     paths:
-      - public
+      - public/tests
     when: always
 
 #pages:
