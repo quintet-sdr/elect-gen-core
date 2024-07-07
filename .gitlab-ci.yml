@@ -26,15 +26,15 @@ unittests:
   stage: test
   image: python:3.9
   before_script:
-    - mkdir -p public
     - pip install -r requirements.txt
+    - mkdir -p public/tests
   script:
-  - python -m pytest . --junitxml=report.xml
+  - python -m  pytest tests.py --junitxml=report.xml
   artifacts:
     reports:
-      junit: reports/lint-report.xml
+      junit: public/lint-report.xml
     paths:
-      - reports/
+      - public
     when: always
 
 #pages:
