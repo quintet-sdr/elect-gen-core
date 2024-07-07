@@ -1,48 +1,51 @@
-lint: 
-  stage: test 
+lint:
+  stage: test
   image: python:3.9
-  before_script: 
-    - mkdir -p public/badges public/lint 
-    - echo undefined > public/badges/$CI_JOB_NAME.score 
-    - pip install pylint pylint-gitlab anybadge 
-  script: 
-    - pylint --exit-zero --output-format=text $(find -type f -name "*.py" ! -path "**/.venv/**") | tee /tmp/pylint.txt 
-    - sed -n 's/^Your code has been rated at \([-2-9.]*\)\/.*/\1/p' /tmp/pylint.txt > public/badges/$CI_JOB_NAME.score 
-    - pylint --exit-zero --output-format=pylint_gitlab.GitlabCodeClimateReporter $(find -type f -name "*.py" ! -path "**/.venv/**") > codeclimate.json 
-    - pylint --exit-zero --output-format=pylint_gitlab.GitlabPagesHtmlReporter $(find -type f -name "*.py" ! -path "**/.venv/**") > public/lint/index.html 
-  after_script: 
-    - anybadge --overwrite --label $CI_JOB_NAME --value=$(cat public/badges/$CI_JOB_NAME.score) --file=public/badges/$CI_JOB_NAME.svg 4=red 6=orange 8=yellow 10=green 
-    - | 
+  before_script:
+    - mkdir -p public/badges public/lint
+    - echo undefined > public/badges/$CI_JOB_NAME.score
+    - pip install pylint pylint-gitlab anybadge
+  script:
+    - pylint --exit-zero --output-format=text $(find -type f -name "*.py" ! -path "**/.venv/**") | tee /tmp/pylint.txt
+    - sed -n 's/^Your code has been rated at \([-2-9.]*\)\/.*/\1/p' /tmp/pylint.txt > public/badges/$CI_JOB_NAME.score
+    - pylint --exit-zero --output-format=pylint_gitlab.GitlabCodeClimateReporter $(find -type f -name "*.py" ! -path "**/.venv/**") > codeclimate.json
+    - pylint --exit-zero --output-format=pylint_gitlab.GitlabPagesHtmlReporter $(find -type f -name "*.py" ! -path "**/.venv/**") > public/lint/index.html
+  after_script:
+    - anybadge --overwrite --label $CI_JOB_NAME --value=$(cat public/badges/$CI_JOB_NAME.score) --file=public/badges/$CI_JOB_NAME.svg 4=red 6=orange 8=yellow 10=green
+    - |
       echo "Your score is: $(cat public/badges/$CI_JOB_NAME.score)" 
- 
-  artifacts: 
-    paths: 
-      - public 
-    reports: 
-      codequality: codeclimate.json 
-    when: always 
- 
-unittests: 
-  stage: test 
+
+  artifacts:
+    paths:
+      - public
+    reports:
+      codequality: codeclimate.json
+    when: always
+
+unittests:
+  stage: test
   image: python:3.9
-  script: 
-     
-    - pip install -r requirements.txt   
-     
-    - pytest --junitxml=report.xml
- 
-  cache: 
-    paths: 
-      - ~/.cache/pip 
-       
-pages: 
-  stage: deploy 
-  image: alpine:latest 
-  script: 
-    - echo 
-  artifacts: 
-    paths: 
-      - public 
-  only: 
-    refs: 
+  before_script:
+    - pip install -r requirements.txt
+  script:
+  - python -m pytest --junitxml=report.xml
+  artifacts:
+      when: always
+      reports:
+        junit: report.xml
+      expire_in: 2 weeks
+  cache:
+    paths:
+      - ~/.cache/pip
+
+pages:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - echo
+  artifacts:
+    paths:
+      - public
+  only:
+    refs:
       - master
