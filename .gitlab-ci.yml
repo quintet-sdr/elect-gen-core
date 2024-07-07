@@ -29,7 +29,7 @@ unittests:
     - pip install -r requirements.txt
     - mkdir -p public/tests
   script:
-  - python -m  pytest tests.py --junitxml=report.xml
+    - python -m pytest tests.py --junitxml=public/tests/lint-report.xml
   artifacts:
     reports:
       junit: public/tests/lint-report.xml
