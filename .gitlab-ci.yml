@@ -26,6 +26,7 @@ unittests:
   stage: test
   image: python:3.9
   before_script:
+    - mkdir -p public
     - pip install -r requirements.txt
   script:
   - python -m pytest . --junitxml=report.xml
