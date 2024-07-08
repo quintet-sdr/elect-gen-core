@@ -1,4 +1,12 @@
 import random
+from multiprocessing import Pool
+import time
+import numpy as np
+
+
+def calculate_fitness_helper(args):
+    individual, students, courses = args
+    return calculate_fitness(individual, students, courses)
 
 
 def costFunction(students):
@@ -46,9 +54,9 @@ def calculate_fitness(individual, students, courses):
         cost += (student.finalPriority ** 2) / student.GPA
 
     # Add a penalty for each course where the quota is exceeded
-    for course in courses_copy:
-        if len(course.students) > course.quota:
-            cost += (len(course.students) - course.quota) * 10000  # penalty_factor is a constant to be defined
+    # for course in courses_copy:
+    #     if len(course.students) > course.quota:
+    #         cost += (len(course.students) - course.quota) * 10000  # penalty_factor is a constant to be defined
 
     return cost
 
@@ -101,17 +109,66 @@ def mutate(individual, students, courses, course_quotas):
     individual[index] = (student_id, course_id)
 
 
-def genetic_algorithm(students, courses, num_generations=500, population_size=500, mutation_rate=0.01,
+def hill_climb(individual, students, courses):
+    # Make a copy of the individual
+    new_individual = individual.copy()
+
+    # Select two students randomly
+    index1, index2 = random.sample(range(len(individual)), 2)
+
+    # Get the students and their courses
+    student1_id, course1_id = new_individual[index1]
+    student2_id, course2_id = new_individual[index2]
+
+    student1 = next((s for s in students if s.ID == student1_id), None)
+    student2 = next((s for s in students if s.ID == student2_id), None)
+
+    course1 = next((c for c in student1.availableCourses if c.ID == course1_id), None)
+    course2 = next((c for c in student2.availableCourses if c.ID == course2_id), None)
+
+    # Check if both courses are in the priority list of both students
+    if course1 in student2.availableCourses and course2 in student1.availableCourses:
+        # Swap their courses
+        new_individual[index1], new_individual[index2] = new_individual[index2], new_individual[index1]
+
+    # If the new individual has better fitness, return it
+    if calculate_fitness(new_individual, students, courses) < calculate_fitness(individual, students, courses):
+        return new_individual
+
+    # Otherwise, return the original individual
+    return individual
+
+
+def genetic_algorithm(students, courses, num_generations=100, population_size=1000, mutation_rate=0.03,
                       elitism_rate=0.1):
+    # Start timing the initial population generation
+    start_time_population = time.time()
+
     # Create the initial population
     population = [create_individual(students, courses) for _ in range(population_size)]
 
+    # End timing the initial population generation
+    end_time_population = time.time()
+    print(f"Time spent on generating initial population: {end_time_population - start_time_population} seconds")
+
+    # Save the initial quotas
+    initial_course_quotas = [course.quota for course in courses]
+
+    # Start timing the GA work
+    start_time_ga = time.time()
+
     for _ in range(num_generations):
+        # Reset the quotas to their initial values
+        for i, course in enumerate(courses):
+            course.quota = initial_course_quotas[i]
+
         # Create a copy of the quotas for this generation
         course_quotas = [course.quota for course in courses]
 
         # Calculate the fitness of each individual in the population
-        fitnesses = [calculate_fitness(individual, students, courses) for individual in population]
+        with Pool() as pool:
+            fitnesses = pool.map(calculate_fitness_helper,
+                                 [(individual, students, courses) for individual in population])
 
         # Create the next generation
         next_population = []
@@ -131,6 +188,9 @@ def genetic_algorithm(students, courses, num_generations=500, population_size=50
             if random.random() < mutation_rate:
                 mutate(child, students, courses, course_quotas)
 
+            # Apply hill climbing to the child
+            child = hill_climb(child, students, courses)
+
             # Add the child to the next generation
             next_population.append(child)
 
@@ -138,6 +198,10 @@ def genetic_algorithm(students, courses, num_generations=500, population_size=50
         population = next_population
 
         print(f"Generation: {_ + 1}, Best Fitness: {min(fitnesses)}")
+
+    # End timing the GA work
+    end_time_ga = time.time()
+    print(f"Time spent on GA work: {end_time_ga - start_time_ga} seconds")
 
     # Return the best individual from the final population
     return min(population, key=lambda individual: calculate_fitness(individual, students, courses))
