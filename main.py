@@ -3,6 +3,7 @@ import os
 from openpyxl import load_workbook
 import xlwt
 import random
+from ga import genetic_algorithm
 
 
 class Student:
@@ -69,7 +70,13 @@ def readStudentsInfo(courses):
     return students
 
 
+def get_student_by_id(student_id, students):
+    return next((s for s in students if s.ID == student_id), None)
+
+
 def writeResults(students):
+    if "Results.xlsx" in os.listdir():
+        os.remove("Results.xlsx")
     results = xlwt.Workbook(encoding="utf-8")
     resultsSheetResults = results.add_sheet("Results")
     resultsSheetResults.write(0, 0, "Student ID")
@@ -94,8 +101,6 @@ def writeResults(students):
         totalResults[student.finalPriority - 1] += 1
     for j in range(0, 7):
         resultsSheetResults.write(1, j + 5, totalResults[j])
-    if "Results.xlsx" in os.listdir():
-        os.remove("Results.xlsx")
     results.save("Results.xlsx")
 
 
@@ -140,56 +145,48 @@ def Distribute(students, errorCourse):
                     break
 
 
-courses = readCoursesInfo()
-students = readStudentsInfo(courses)
+# def improveDistribution(students, courses, clearStudents, clearCourses, errorCourse):
+#     noImprovements = 0
+#     while (noImprovements < 1000):
+#         cost = costFunction(students)
+#         randomStudents = random.sample(students, int(len(students) / 10))
+#         newStudents = clearStudents.copy()
+#         newCourses = clearCourses.copy()
+#         for student in randomStudents:
+#             if student.finalPriority != 1 and student.finalPriority != 7:
+#                 index = newStudents.index(student)
+#                 newStudents[index] = student
+#                 newStudents[index].finalPriority -= 1
+#                 newStudents[index].finalCourse = newStudents[index].availableCourses[
+#                     min(newStudents[index].finalPriority, len(newStudents[index].availableCourses) - 1)].name
+#                 newStudents[index].isDistributed = True
+#         Distribute(newStudents, errorCourse)
+#         newCost = costFunction(newStudents)
+#         if newCost < cost:
+#             students = newStudents.copy()
+#             courses = newCourses
+#             noImprovements = 0
+#         else:
+#             noImprovements += 1
 
-clearCourses = courses.copy()
-clearStudents = students.copy()
 
-errorCourse = Course(-1, "ERROR", 0)
+def selectDistribution(cmd):
+    best_distribution_students = []
+    courses = readCoursesInfo()
+    students = readStudentsInfo(courses)
+    if cmd == 1:
+        best_distribution = genetic_algorithm(students, courses)
+        best_distribution_students = [get_student_by_id(student_id, students) for student_id, _ in best_distribution]
+    elif cmd == 2:
+        best_distribution_students = startBasicAlgorithm(students, courses)
+    return best_distribution_students
 
-Distribute(students, errorCourse)
 
-# students.sort(key=lambda student: -student.finalPriority - student.GPA)
-# oldStudents = students.copy
-# oldCourses = courses.copy
-# for student in students:
-#     if student.isDistributed:
-#         if student.finalPriority != 1:
-#             cost = costFunction(students)
-#             currentFinalPriority = student.finalPriority
-#             for i in range(1, currentFinalPriority):
-#                 course = student.availableCourses[i]
-#                 for studentToSwap in course.students:
-#                     studentToSwapFinalPriority = studentToSwap.finalProirity
-#                     while (studentToSwapFinalPriority < currentFinalPriority-1):
-#                         studentToSwapFinalPriority+=1
-#                         if studentToSwap.availableCourses[i].quota > 0:
-#                             course.students.delete(studentToSwap)
-#                             studentToSwap.availableCourses[i].quota -= 1
-#                             studentToSwap.availableCourses[i].students.append(studentToSwap)
-#
-#                             break
-noImprovements = 0
-while (noImprovements < 1000):
-    cost = costFunction(students)
-    randomStudents = random.sample(students, int(len(students) / 10))
-    newStudents = clearStudents.copy()
-    newCourses = clearCourses.copy()
-    for student in randomStudents:
-        if student.finalPriority != 1 and student.finalPriority != 7:
-            index = newStudents.index(student)
-            newStudents[index] = student
-            newStudents[index].finalPriority -= 1
-            newStudents[index].finalCourse = newStudents[index].availableCourses[
-                min(newStudents[index].finalPriority, len(newStudents[index].availableCourses) - 1)].name
-            newStudents[index].isDistributed = True
-    Distribute(newStudents, errorCourse)
-    newCost = costFunction(newStudents)
-    if newCost < cost:
-        students = newStudents.copy()
-        courses = newCourses
-        noImprovements = 0
-    else:
-        noImprovements += 1
-writeResults(students)
+def startBasicAlgorithm(students, courses):
+    clearCourses = courses.copy()
+    clearStudents = students.copy()
+    errorCourse = Course(-1, "ERROR", 0)
+    Distribute(students, errorCourse)
+    # improveDistribution(students, courses, clearStudents, clearCourses, errorCourse)
+    return students
+
