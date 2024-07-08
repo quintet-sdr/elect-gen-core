@@ -1,6 +1,7 @@
 from openpyxl import load_workbook
 import xlwt
 import random
+import copy
 
 
 class Student:
@@ -139,53 +140,39 @@ def Distribute(students, errorCourse):
 courses = readCoursesInfo()
 students = readStudentsInfo(courses)
 
-clearCourses = courses.copy()
-clearStudents = students.copy()
+clearCourses = copy.deepcopy(courses)
+clearStudents = copy.deepcopy(students)
 
 errorCourse = Course(-1, "ERROR", 0)
 
 Distribute(students, errorCourse)
 
-# students.sort(key=lambda student: -student.finalPriority - student.GPA)
-# oldStudents = students.copy
-# oldCourses = courses.copy
-# for student in students:
-#     if student.isDistributed:
-#         if student.finalPriority != 1:
-#             cost = costFunction(students)
-#             currentFinalPriority = student.finalPriority
-#             for i in range(1, currentFinalPriority):
-#                 course = student.availableCourses[i]
-#                 for studentToSwap in course.students:
-#                     studentToSwapFinalPriority = studentToSwap.finalProirity
-#                     while (studentToSwapFinalPriority < currentFinalPriority-1):
-#                         studentToSwapFinalPriority+=1
-#                         if studentToSwap.availableCourses[i].quota > 0:
-#                             course.students.delete(studentToSwap)
-#                             studentToSwap.availableCourses[i].quota -= 1
-#                             studentToSwap.availableCourses[i].students.append(studentToSwap)
-#
-#                             break
+# Randomly scattering students and trying to improve the costFunction
 noImprovements = 0
-while (noImprovements < 1000):
+while noImprovements < 10000:
     cost = costFunction(students)
-    randomStudents = random.sample(students, int(len(students) / 10))
-    newStudents = clearStudents.copy()
-    newCourses = clearCourses.copy()
+    newStudents = copy.deepcopy(clearStudents)
+    newCourses = copy.deepcopy(clearCourses)
+    randomStudents = random.sample(students, int(len(students) / 20))
     for student in randomStudents:
         if student.finalPriority != 1 and student.finalPriority != 7:
-            index = newStudents.index(student)
-            newStudents[index] = student
-            newStudents[index].finalPriority -= 1
-            newStudents[index].finalCourse = newStudents[index].availableCourses[
-                min(newStudents[index].finalPriority, len(newStudents[index].availableCourses) - 1)].name
-            newStudents[index].isDistributed = True
+            for findStudent in newStudents:
+                if findStudent.name == student.name:
+                    findStudent = copy.deepcopy(student)
+                    findStudent.finalPriority = min(findStudent.finalPriority - 1,
+                                                    len(findStudent.availableCourses) - 1)
+                    findStudent.finalCourse = findStudent.availableCourses[findStudent.finalPriority]
+                    findStudent.isDistributed = True
     Distribute(newStudents, errorCourse)
     newCost = costFunction(newStudents)
     if newCost < cost:
-        students = newStudents.copy()
-        courses = newCourses
+        print("Cost difference: ", cost - newCost)
+        cost = newCost
+        students = copy.deepcopy(newStudents)
+        courses = copy.deepcopy(newCourses)
         noImprovements = 0
     else:
         noImprovements += 1
+        if noImprovements % 100 == 0:
+            print("Without improvements: ", noImprovements)
 writeResults(students)
