@@ -54,7 +54,10 @@ Available flags:
 1. Ensure Python 3.9 or higher is installed.
 2. Clone the repository to your local machine.
 3. Navigate to the project directory.
-4. Install required dependencies with `pip install -r requirements.txt`.
+4. Install required dependencies with 
+```shell
+pip install -r requirements.txt
+```
 
 ## Frameworks or Technology
 
