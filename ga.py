@@ -1,7 +1,6 @@
 import random
-from multiprocessing import Pool
 import time
-import numpy as np
+from multiprocessing import Pool
 
 
 def calculate_fitness_helper(args):
