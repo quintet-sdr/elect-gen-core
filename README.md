@@ -79,7 +79,7 @@ To use the system, follow these steps:
 python algorithm_cli.py --read-courses --read-students --distribute --write-results --algorithm basic
 ```
 
-To run the system with genetic algorithm, execute the following command in your terminal:
+**BROKEN:** To run the system with genetic algorithm, execute the following command in your terminal:
 
 ```shell
 python algorithm_cli.py --read-courses --read-students --distribute --write-results --algorithm gen
