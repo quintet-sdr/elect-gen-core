@@ -56,7 +56,7 @@ def readStudentsInfo(courses):
                     flag = True
                     keywords.append(course)
                     if course.ID != -1:
-                        availableCourses.append(course)
+                        availableCourses.append(course.name)
                     break
             if not flag:
                 course = Course(-1, keyword, 0)
@@ -96,45 +96,62 @@ def writeResults(students):
     results.save("Results.xlsx")
 
 
-def costFunction(students):
+def costFunction(students, courses):
     cost = 0
     for student in students:
         if student.finalPriority == 7 or student.GPA == 0:
             continue
         cost += (student.finalPriority ** 2) / student.GPA
+
+    for course in courses:
+        numOfStudents = len(course.students) % 25
+        if(numOfStudents<15):
+            cost *=1000
+        elif numOfStudents < 18:
+            cost += (18 - numOfStudents) ** 2
+        elif numOfStudents > 24:
+            cost += (numOfStudents - 24) ** 2
     return cost
 
 
-def Distribute(students, errorCourse):
+def Distribute(students, errorCourse, courses):
     # Initial student's distribution
     for student in students:
-        for course in student.keywords:
-            if student.keywords.count(course) > 1:
+        for courseName in student.keywords:
+            if student.keywords.count(courseName) > 1:
                 student.finalPriority = 7
                 student.availableCourses = list(set(student.availableCourses))
                 while len(student.keywords) < 5:
-                    student.add = errorCourse
+                    student.keywords.append(errorCourse)
         if not student.isDistributed:
-            for course in student.availableCourses:
-                if course.quota > 0:
-                    course.quota -= 1
-                    course.students.append(student)
-                    student.isDistributed = True
-                    student.finalCourse = course.name
-                    student.finalPriority = student.availableCourses.index(course) + 1
+            for courseName in student.availableCourses:
+                for course in courses:
+                    if courseName.lower() == course.name.lower():
+                        if course.quota > 0:
+                            course.quota -= 1
+                            course.students.append(student)
+                            student.isDistributed = True
+                            student.finalCourse = course.name
+                            student.finalPriority = student.availableCourses.index(courseName) + 1
+                            break
+                if student.isDistributed:
                     break
 
     # Trying to Distribute bad input
     for student in students:
         if not student.isDistributed:
-            for course in student.availableCourses:
-                if course.quota > 0:
-                    course.quota -= 1
-                    course.students.append(student)
-                    student.isDistributed = True
-                    student.finalCourse = course.name
-                    student.finalPriority = student.availableCourses.index(course) + 1
-                    break
+            for courseName in student.availableCourses:
+                for course in courses:
+                    if courseName.lower() == course.name.lower():
+                        if course.quota > 0:
+                            course.quota -= 1
+                            course.students.append(student)
+                            student.isDistributed = True
+                            student.finalCourse = course.name
+                            student.finalPriority = student.availableCourses.index(courseName) + 1
+                            break
+            if student.isDistributed:
+                break
 
 
 courses = readCoursesInfo()
@@ -145,12 +162,13 @@ clearStudents = copy.deepcopy(students)
 
 errorCourse = Course(-1, "ERROR", 0)
 
-Distribute(students, errorCourse)
+Distribute(students, errorCourse, courses)
 
 # Randomly scattering students and trying to improve the costFunction
 noImprovements = 0
+cost = costFunction(students, courses)
+print(cost)
 while noImprovements < 10000:
-    cost = costFunction(students)
     newStudents = copy.deepcopy(clearStudents)
     newCourses = copy.deepcopy(clearCourses)
     randomStudents = random.sample(students, int(len(students) / 20))
@@ -163,10 +181,14 @@ while noImprovements < 10000:
                                                     len(findStudent.availableCourses) - 1)
                     findStudent.finalCourse = findStudent.availableCourses[findStudent.finalPriority]
                     findStudent.isDistributed = True
-    Distribute(newStudents, errorCourse)
-    newCost = costFunction(newStudents)
+                    for course in newCourses:
+                        if findStudent.availableCourses[findStudent.finalPriority] == course.name:
+                            course.quota -= 1
+                            course.students.append(student)
+    Distribute(newStudents, errorCourse,newCourses)
+    newCost = costFunction(newStudents, newCourses)
     if newCost < cost:
-        print("Cost difference: ", cost - newCost)
+        print("Cost func: ", newCost)
         cost = newCost
         students = copy.deepcopy(newStudents)
         courses = copy.deepcopy(newCourses)
