@@ -45,17 +45,38 @@ def calculate_fitness(individual, students, courses):
             student.finalPriority = student.availableCourses.index(course) + 1
             course.students.append(student)
 
-    # Calculate the cost
+    # Define constants for magic numbers
+    PRIORITY_PENALTY = 7
+    GPA_PENALTY = 0
+    GROUP_MIN_SIZE = 20
+    GROUP_MAX_SIZE = 28
+    GROUP_PENALTY_FACTOR = 1000
+    MAX_GROUPS = 5
+
     cost = 0
-    for student in students_copy:
-        if student.finalPriority == 7 or student.GPA == 0:
+    for student in students:
+        if student.finalPriority == PRIORITY_PENALTY or student.GPA == GPA_PENALTY:
             continue
         cost += (student.finalPriority ** 2) / student.GPA
 
-    # Add a penalty for each course where the quota is exceeded
-    # for course in courses_copy:
-    #     if len(course.students) > course.quota:
-    #         cost += (len(course.students) - course.quota) * 10000  # penalty_factor is a constant to be defined
+    for course in courses:
+        # Divide students into equal groups
+        num_of_students = len(course.students)
+        num_of_groups = num_of_students // GROUP_MAX_SIZE
+        remainder = num_of_students % GROUP_MAX_SIZE
+
+        groups = [course.students[i * GROUP_MAX_SIZE:(i + 1) * GROUP_MAX_SIZE] for i in range(num_of_groups)]
+        if remainder:
+            groups.append(course.students[-remainder:])
+
+        if len(groups) > MAX_GROUPS:
+            cost += (len(groups) - MAX_GROUPS) * GROUP_PENALTY_FACTOR
+        for group in groups:
+            numOfStudents = len(group)
+            if numOfStudents < GROUP_MIN_SIZE:
+                cost *= GROUP_PENALTY_FACTOR
+            elif numOfStudents > GROUP_MAX_SIZE:
+                cost += (numOfStudents - GROUP_MAX_SIZE) ** 2
 
     return cost
 
@@ -138,7 +159,7 @@ def hill_climb(individual, students, courses):
     return individual
 
 
-def genetic_algorithm(students, courses, num_generations=100, population_size=1000, mutation_rate=0.03,
+def genetic_algorithm(students, courses, num_generations=4000, population_size=2000, mutation_rate=0.03,
                       elitism_rate=0.1):
     # Start timing the initial population generation
     start_time_population = time.time()
@@ -188,7 +209,7 @@ def genetic_algorithm(students, courses, num_generations=100, population_size=10
                 mutate(child, students, courses, course_quotas)
 
             # Apply hill climbing to the child
-            child = hill_climb(child, students, courses)
+            # child = hill_climb(child, students, courses)
 
             # Add the child to the next generation
             next_population.append(child)
