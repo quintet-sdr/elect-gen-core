@@ -3,11 +3,13 @@ from main import readCoursesInfo, readStudentsInfo, Distribute, writeResults, Co
 
 def main():
     parser = argparse.ArgumentParser(description="Student Course Allocation System")
+    print("Student Course Allocation System")
+    print("Please select the options you want to run. Or type 'help' for more information.")
     parser.add_argument('--read-courses', action='store_true', help='Read courses information from file')
     parser.add_argument('--read-students', action='store_true', help='Read students information from file')
     parser.add_argument('--distribute', action='store_true', help='Distribute students to courses')
     parser.add_argument('--write-results', action='store_true', help='Write the distribution results to file')
-    parser.add_argument('--algorithm', type=str, choices=['gen', 'basic'], default='gen', help='The algorithm to use (gen or basic)')
+    parser.add_argument('--algorithm', type=str, choices=['gen', 'basic'], default='gen', help='WARNING: Genetic algorithm (gen) is the broken for now. The algorithm to use (gen or basic)')
 
     args = parser.parse_args()
     courses = []
@@ -20,7 +22,11 @@ def main():
     if args.read_students:
         if 'courses' not in locals():
             courses = readCoursesInfo()
-        students = readStudentsInfo(courses)
+        students = []
+        name = "Students table.xlsx"
+        readStudentsInfo(courses, students, name)
+        name = "Students table 2.xlsx"
+        readStudentsInfo(courses, students, name)
         print("Students read successfully.")
 
     if args.distribute:
