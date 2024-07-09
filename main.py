@@ -37,11 +37,10 @@ def readCoursesInfo():
     return courses
 
 
-def readStudentsInfo(courses):
-    studentFile = 'Students table.xlsx'
+def readStudentsInfo(courses, students, name):
+    studentFile = name
     studentWB = load_workbook(studentFile)
     studentSheet = studentWB[studentWB.sheetnames[0]]
-    students = []
     for i in range(2, studentSheet.max_row + 1):
         ID = studentSheet.cell(row=i, column=1).value
         name = studentSheet.cell(row=i, column=2).value
@@ -65,7 +64,6 @@ def readStudentsInfo(courses):
         GPA = float(GPA)
         students.append(Student(ID, name, GPA, keywords, availableCourses))
     students.sort(key=lambda student: student.GPA, reverse=True)
-    return students
 
 
 def writeResults(students):
@@ -105,9 +103,7 @@ def costFunction(students, courses):
 
     for course in courses:
         numOfStudents = len(course.students) % 25
-        if(numOfStudents<15):
-            cost *=1000
-        elif numOfStudents < 18:
+        if numOfStudents < 18:
             cost += (18 - numOfStudents) ** 2
         elif numOfStudents > 24:
             cost += (numOfStudents - 24) ** 2
@@ -155,7 +151,9 @@ def Distribute(students, errorCourse, courses):
 
 
 courses = readCoursesInfo()
-students = readStudentsInfo(courses)
+students = []
+readStudentsInfo(courses, students, "Students table.xlsx")
+readStudentsInfo(courses, students, "Students table 2.xlsx")
 
 clearCourses = copy.deepcopy(courses)
 clearStudents = copy.deepcopy(students)
@@ -168,7 +166,7 @@ Distribute(students, errorCourse, courses)
 noImprovements = 0
 cost = costFunction(students, courses)
 print(cost)
-while noImprovements < 10000:
+while noImprovements < 5000:
     newStudents = copy.deepcopy(clearStudents)
     newCourses = copy.deepcopy(clearCourses)
     randomStudents = random.sample(students, int(len(students) / 20))
@@ -185,7 +183,7 @@ while noImprovements < 10000:
                         if findStudent.availableCourses[findStudent.finalPriority] == course.name:
                             course.quota -= 1
                             course.students.append(student)
-    Distribute(newStudents, errorCourse,newCourses)
+    Distribute(newStudents, errorCourse, newCourses)
     newCost = costFunction(newStudents, newCourses)
     if newCost < cost:
         print("Cost func: ", newCost)
