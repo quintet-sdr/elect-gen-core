@@ -4,7 +4,7 @@ import numpy as np
 from openpyxl import load_workbook
 import xlwt
 import random
-# from ga import genetic_algorithm
+from ga import genetic_algorithm
 import math
 from openpyxl import Workbook
 from multiprocessing import Pool
@@ -85,6 +85,7 @@ def readCoursesInfo():
     return courses
 
 
+
 def readStudentsInfo(courses, students, name):
     studentFile = name
     studentWB = load_workbook(studentFile)
@@ -131,7 +132,8 @@ def writeResults(students):
     totalResults = [0] * 7
     for i, student in enumerate(students, start=2):
         resultsSheetResults.append([student.ID, student.name, student.finalPriority, student.finalCourse])
-        totalResults[student.finalPriority - 1] += 1
+        if 1 <= student.finalPriority <= 7:  # Check if the finalPriority is within the valid range
+            totalResults[student.finalPriority - 1] += 1
     for j in range(0, 7):
         resultsSheetResults.cell(row=2, column=j + 6, value=totalResults[j])
     results.save("Results.xlsx")
@@ -245,10 +247,10 @@ def selectDistribution(cmd):
     readStudentsInfo(courses, students, "Students table 2.xlsx")
     students_dict = get_student_by_id(students)
     if cmd == 1:
-        # best_distribution = genetic_algorithm(students, courses)
-        #  best_distribution_students = [students_dict[student_id] for student_id, _ in best_distribution]
-        print("Genetic algorithm is not functional yet")
-        print("Please select another algorithm (basic)")
+        best_distribution = genetic_algorithm(students, courses)
+        best_distribution_students = [students_dict[student_id] for student_id, _ in best_distribution]
+        # print("Genetic algorithm is not functional yet")
+        # print("Please select another algorithm (basic)")
     elif cmd == 2:
         best_distribution_students = startBasicAlgorithm(students, courses)
     return best_distribution_students
