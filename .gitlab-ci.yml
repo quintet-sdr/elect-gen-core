@@ -1,7 +1,18 @@
 stages:
-  #- release
+  - release
   - lint
   - unittests
+
+release:
+  image: node:20.8.1-buster-slim
+  stage: release
+  before_script:
+    - apt-get update && apt-get install -y --no-install-recommends git-core ca-certificates
+    - npm install -g semantic-release @semantic-release/gitlab @semantic-release/changelog conventional-changelog-conventionalcommits @semantic-release/commit-analyzer @semantic-release/git
+  script:
+    - semantic-release
+  only:
+    - feature-changelog
 
 
 lint:
@@ -54,3 +65,4 @@ unittests:
 #  only:
 #    refs:
 #      - master
+
