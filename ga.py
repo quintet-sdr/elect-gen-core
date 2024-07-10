@@ -220,7 +220,7 @@ def genetic_algorithm(students, courses, num_generations=100, population_size=10
                 mutate(child, students, courses, course_quotas)
 
             # Apply hill climbing to the child
-            child = hill_climb(child, students, courses)
+            # child = hill_climb(child, students, courses)
 
             # Add the child to the next generation
             next_population.append(child)
