@@ -66,32 +66,34 @@ def readStudentsInfo(courses, students, name):
     students.sort(key=lambda student: student.GPA, reverse=True)
 
 
-def writeResults(students):
-    results = xlwt.Workbook(encoding="utf-8")
-    resultsSheetResults = results.add_sheet("Results")
-    resultsSheetResults.write(0, 0, "Student ID")
-    resultsSheetResults.write(0, 1, "Student Name")
-    resultsSheetResults.write(0, 2, "Final priority")
-    resultsSheetResults.write(0, 3, "Course Name")
-    resultsSheetResults.write(0, 5, "1 priority")
-    resultsSheetResults.write(0, 6, "2 priority")
-    resultsSheetResults.write(0, 7, "3 priority")
-    resultsSheetResults.write(0, 8, "4 priority")
-    resultsSheetResults.write(0, 9, "5 priority")
-    resultsSheetResults.write(0, 10, "No priority")
-    resultsSheetResults.write(0, 11, "Bad input")
-    totalResults = [0] * 7
-    i = 0
-    for student in students:
-        i += 1
-        resultsSheetResults.write(i, 0, student.ID)
-        resultsSheetResults.write(i, 1, student.name)
-        resultsSheetResults.write(i, 2, student.finalPriority)
-        resultsSheetResults.write(i, 3, student.finalCourse)
-        totalResults[student.finalPriority - 1] += 1
-    for j in range(0, 7):
-        resultsSheetResults.write(1, j + 5, totalResults[j])
-    results.save("Results.xlsx")
+def writeResults(results):
+    resultsWB = xlwt.Workbook(encoding="utf-8")
+    for key, value in results.items():
+        nameOfSheet="Results "+str(key)
+        resultsSheetResults = resultsWB.add_sheet(nameOfSheet)
+        resultsSheetResults.write(0, 0, "Student ID")
+        resultsSheetResults.write(0, 1, "Student Name")
+        resultsSheetResults.write(0, 2, "Final priority")
+        resultsSheetResults.write(0, 3, "Course Name")
+        resultsSheetResults.write(0, 5, "1 priority")
+        resultsSheetResults.write(0, 6, "2 priority")
+        resultsSheetResults.write(0, 7, "3 priority")
+        resultsSheetResults.write(0, 8, "4 priority")
+        resultsSheetResults.write(0, 9, "5 priority")
+        resultsSheetResults.write(0, 10, "No priority")
+        resultsSheetResults.write(0, 11, "Bad input")
+        totalResults = [0] * 7
+        i = 0
+        for student in value:
+            i += 1
+            resultsSheetResults.write(i, 0, student.ID)
+            resultsSheetResults.write(i, 1, student.name)
+            resultsSheetResults.write(i, 2, student.finalPriority)
+            resultsSheetResults.write(i, 3, student.finalCourse)
+            totalResults[student.finalPriority - 1] += 1
+        for j in range(0, 7):
+            resultsSheetResults.write(1, j + 5, totalResults[j])
+    resultsWB.save("Results.xlsx")
 
 
 def costFunction(students, courses):
@@ -166,33 +168,39 @@ Distribute(students, errorCourse, courses)
 noImprovements = 0
 cost = costFunction(students, courses)
 print(cost)
-while noImprovements < 5000:
-    newStudents = copy.deepcopy(clearStudents)
-    newCourses = copy.deepcopy(clearCourses)
-    randomStudents = random.sample(students, int(len(students) / 20))
-    for student in randomStudents:
-        if student.finalPriority != 1 and student.finalPriority != 7:
-            for findStudent in newStudents:
-                if findStudent.name == student.name:
-                    findStudent = copy.deepcopy(student)
-                    findStudent.finalPriority = min(findStudent.finalPriority - 1,
-                                                    len(findStudent.availableCourses) - 1)
-                    findStudent.finalCourse = findStudent.availableCourses[findStudent.finalPriority]
-                    findStudent.isDistributed = True
-                    for course in newCourses:
-                        if findStudent.availableCourses[findStudent.finalPriority] == course.name:
-                            course.quota -= 1
-                            course.students.append(student)
-    Distribute(newStudents, errorCourse, newCourses)
-    newCost = costFunction(newStudents, newCourses)
-    if newCost < cost:
-        print("Cost func: ", newCost)
-        cost = newCost
-        students = copy.deepcopy(newStudents)
-        courses = copy.deepcopy(newCourses)
+results = {cost: students}
+while noImprovements < 10:
+    newResults = {}
+    for cost, students in results.items():
+        newStudents = copy.deepcopy(clearStudents)
+        newCourses = copy.deepcopy(clearCourses)
+        randomStudents = random.sample(students, int(len(students) / 20))
+        for student in randomStudents:
+            if student.finalPriority != 1 and student.finalPriority != 7:
+                for findStudent in newStudents:
+                    if findStudent.name == student.name:
+                        findStudent = copy.deepcopy(student)
+                        findStudent.finalPriority = min(findStudent.finalPriority - 1,
+                                                        len(findStudent.availableCourses) - 1)
+                        findStudent.finalCourse = findStudent.availableCourses[findStudent.finalPriority]
+                        findStudent.isDistributed = True
+                        for course in newCourses:
+                            if findStudent.availableCourses[findStudent.finalPriority] == course.name:
+                                course.quota -= 1
+                                course.students.append(student)
+        Distribute(newStudents, errorCourse, newCourses)
+        newCost = costFunction(newStudents, newCourses)
+        if newCost < cost:
+            newResults.update({newCost: newStudents})
+            print("Cost func: ", newCost)
+            cost = newCost
+    if len(newResults) != 0:
         noImprovements = 0
+        results.update(newResults)
+        newResults.clear()
+        results = {key: results[key] for key in sorted(results)[:5]}
     else:
-        noImprovements += 1
-        if noImprovements % 100 == 0:
+        noImprovements+=1
+        if noImprovements%100==0:
             print("Without improvements: ", noImprovements)
-writeResults(students)
+writeResults(results)
