@@ -1,5 +1,22 @@
+stages:
+  # - release
+  - lint
+  - unittests
+
+#release:
+  #image: node:20.8.1-buster-slim
+  #stage: release
+  #before_script:
+    #- apt-get update && apt-get install -y --no-install-recommends git-core ca-certificates
+    #- npm install -g semantic-release @semantic-release/gitlab @semantic-release/changelog conventional-changelog-conventionalcommits @semantic-release/commit-analyzer @semantic-release/git
+  #script:
+    #- semantic-release
+ #only:
+    #- main
+
+
 lint:
-  stage: test
+  stage: lint
   image: python:3.9
   before_script:
     - mkdir -p public/badges public/lint
@@ -23,7 +40,7 @@ lint:
     when: always
 
 unittests:
-  stage: test
+  stage: unittests
   image: python:3.9
   before_script:
     - pip install -r requirements.txt
