@@ -15,7 +15,7 @@ release:
     - git remote add gitlab_origin https://oauth2:${GITLAB_TOKEN}@gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core.git
     - semantic-release
   only:
-    - dev-new
+    - feature-changelog
 
 
 lint:
