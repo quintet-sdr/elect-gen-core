@@ -12,7 +12,7 @@ release:
   script:
     - semantic-release
   only:
-    - feature-changelog
+    - dev-new
 
 
 lint:
