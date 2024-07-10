@@ -1,7 +1,21 @@
 stages:
-  #- release
+  - release
   - lint
   - unittests
+
+release:
+  image: node:20.8.1-buster-slim
+  stage: release
+  before_script:
+    - apt-get update && apt-get install -y --no-install-recommends git-core ca-certificates
+    - npm install -g semantic-release @semantic-release/gitlab @semantic-release/changelog conventional-changelog-conventionalcommits @semantic-release/commit-analyzer @semantic-release/git
+  script:
+    - git config user.email "my-email@email.com"
+    - git config user.name "ci-bot"
+    - git remote add gitlab_origin https://oauth2:${GITLAB_TOKEN}@gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core.git
+    - semantic-release
+  only:
+    - dev-new
 
 
 lint:
