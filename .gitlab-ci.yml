@@ -9,10 +9,11 @@ release:
   before_script:
     - apt-get update && apt-get install -y --no-install-recommends git-core ca-certificates
     - npm install -g semantic-release @semantic-release/gitlab @semantic-release/changelog conventional-changelog-conventionalcommits @semantic-release/commit-analyzer @semantic-release/git
+    - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
+    - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
+    - git clone "https://oauth2:${GITLAB_TOKEN}@gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core.git"
+
   script:
-    - git config user.email "myemail@email.com"
-    - git config user.name "ci-bot"
-    - git remote add gitlab_origin https://oauth2:${GITLAB_TOKEN}@gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core.git
     - semantic-release
   only:
     - feature-changelog
