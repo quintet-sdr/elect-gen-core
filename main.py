@@ -2,7 +2,6 @@ import copy
 import os
 import numpy as np
 from openpyxl import load_workbook
-import xlwt
 import random
 from ga import genetic_algorithm
 import math
@@ -85,7 +84,6 @@ def readCoursesInfo():
     return courses
 
 
-
 def readStudentsInfo(courses, students, name):
     studentFile = name
     studentWB = load_workbook(studentFile)
@@ -120,22 +118,39 @@ def readStudentsInfo(courses, students, name):
     students.sort(key=lambda student: student.GPA, reverse=True)
 
 
-def writeResults(students):
+def writeResults(students_distributions, costs, courses):
     if "Results.xlsx" in os.listdir():
         os.remove("Results.xlsx")
     results = Workbook()
-    resultsSheetResults = results.active
-    resultsSheetResults.title = "Results"
-    resultsSheetResults.append(
-        ["Student ID", "Student Name", "Final priority", "Course Name", "", "1 priority", "2 priority", "3 priority",
-         "4 priority", "5 priority", "No priority", "Bad input"])
-    totalResults = [0] * 7
-    for i, student in enumerate(students, start=2):
-        resultsSheetResults.append([student.ID, student.name, student.finalPriority, student.finalCourse])
-        if 1 <= student.finalPriority <= 7:  # Check if the finalPriority is within the valid range
-            totalResults[student.finalPriority - 1] += 1
-    for j in range(0, 7):
-        resultsSheetResults.cell(row=2, column=j + 6, value=totalResults[j])
+    costs_dict = {cost: students for students, cost in zip(students_distributions, costs)}
+
+    for cost, students in costs_dict.items():
+        resultsSheetResults = results.create_sheet(title=f"Result {cost}")
+        resultsSheetResults.append(
+            ["Student ID", "Student Name", "Final priority", "Course Name", "Actual Course Name", "1 priority",
+             "2 priority",
+             "3 priority",
+             "4 priority", "5 priority", "No priority", "Bad input", ""] + [course.name for course in courses])
+
+        totalResults = [0] * 7
+        totalCourseResults = [0] * len(courses)
+        totalCourseQuotas = [course.quota for course in courses]
+        for student in students:
+            resultsSheetResults.append([student.ID, student.name, student.finalPriority, student.finalCourse,
+                                        student.keywords[student.finalPriority - 1].name])
+            if 1 <= student.finalPriority <= 7:
+                totalResults[student.finalPriority - 1] += 1
+            totalCourseResults[
+                courses.index([course for course in courses if course.name == student.finalCourse][0])] += 1
+        for j in range(0, 7):
+            resultsSheetResults.cell(row=2, column=j + 6, value=totalResults[j])
+        resultsSheetResults.cell(row=2, column=13, value="Distribution:")
+        resultsSheetResults.cell(row=3, column=13, value="Quotas:")
+        for k in range(0, len(courses)):
+            resultsSheetResults.cell(row=2, column=k + 14, value=totalCourseResults[k])
+        for k in range(0, len(courses)):
+            resultsSheetResults.cell(row=3, column=k + 14, value=totalCourseQuotas[k])
+
     results.save("Results.xlsx")
 
 
@@ -152,9 +167,26 @@ def costFunction(students, courses):
     return cost
 
 
-def Distribute(students, errorCourse, courses):
-    students.sort(key=lambda student: student.GPA, reverse=True)
+def get_student_by_id(students):
+    return {s.ID: s for s in students}
 
+
+def calculate_fitness_helper(args, students, courses):
+    individual = args
+    fitness = costFunction(students, courses)
+    return fitness
+
+
+def calculate_fitness_parallel(individuals, students, courses):
+    with Pool() as pool:
+        fitnesses = pool.starmap(calculate_fitness_helper,
+                                 [(individual, students, courses) for individual in individuals])
+    return fitnesses
+
+
+def Distribute(students, errorCourse, courses):
+    random.shuffle(students)
+    students.sort(key=lambda student: student.GPA, reverse=True)
     for student in students:
         if not student.isDistributed:
             for courseName in student.availableCourses:
@@ -168,8 +200,6 @@ def Distribute(students, errorCourse, courses):
                         break
                 if student.isDistributed:
                     break
-
-    # If a student is not distributed, assign them to a course not in their availableCourses list
     for student in students:
         if not student.isDistributed:
             other_courses = [course for course in courses if course.name not in student.availableCourses]
@@ -180,32 +210,15 @@ def Distribute(students, errorCourse, courses):
                 student.isDistributed = True
                 student.finalCourse = course.name
                 student.finalPriority = len(student.availableCourses)
-
-
-def get_student_by_id(students):
-    return {s.ID: s for s in students}
-
-
-def calculate_fitness_helper(args, students, courses):
-    individual = args
-    # Calculate the fitness of the individual based on your requirements
-    # This is just a placeholder calculation
-    fitness = costFunction(students, courses)
-    return fitness
-
-
-def calculate_fitness_parallel(individuals, students, courses):
-    with Pool() as pool:
-        fitnesses = pool.starmap(calculate_fitness_helper,
-                                 [(individual, students, courses) for individual in individuals])
-    return fitnesses
+    cost = costFunction(students, courses)
+    return students, cost
 
 
 def improveDistribution(students, courses, errorCourse):
     noImprovements = 0
     cost = costFunction(students, courses)
     print("Initial cost: ", cost)
-    while noImprovements < 10000:
+    while noImprovements < 1:
         newStudents = [copy.copy(s) for s in students]
         newCourses = [copy.copy(c) for c in courses]
         sortedStudents = sorted(students, key=lambda s: s.finalPriority, reverse=True)
@@ -237,10 +250,12 @@ def improveDistribution(students, courses, errorCourse):
             noImprovements += 1
             if noImprovements % 100 == 0:
                 print("Without improvements: ", noImprovements)
+    return students, cost
 
 
 def selectDistribution(cmd):
     best_distribution_students = []
+    best_distribution_cost = None
     courses = readCoursesInfo()
     students = []
     readStudentsInfo(courses, students, "Students table.xlsx")
@@ -249,17 +264,26 @@ def selectDistribution(cmd):
     if cmd == 1:
         best_distribution = genetic_algorithm(students, courses)
         best_distribution_students = [students_dict[student_id] for student_id, _ in best_distribution]
-        # print("Genetic algorithm is not functional yet")
-        # print("Please select another algorithm (basic)")
+        best_distribution_cost = costFunction(best_distribution_students, courses)
     elif cmd == 2:
-        best_distribution_students = startBasicAlgorithm(students, courses)
-    return best_distribution_students
+        best_distribution_students, best_distribution_cost = startBasicAlgorithm(students, courses)
+    return best_distribution_students, best_distribution_cost
 
 
 def startBasicAlgorithm(students, courses):
     clearCourses = courses.copy()
     clearStudents = students.copy()
     errorCourse = Course(-1, "ERROR", 0)
-    Distribute(students, errorCourse, courses)
-    improveDistribution(students, courses, clearStudents)
-    return students
+    students_distributions = []
+    costs = []
+    for _ in range(5):
+        students_copy = [copy.deepcopy(s) for s in students]
+        courses_copy = [copy.deepcopy(c) for c in courses]
+        students_copy, cost = Distribute(students_copy, errorCourse, courses_copy)
+        students_copy, cost = improveDistribution(students_copy, courses_copy, clearStudents)
+        students_distributions.append(students_copy)
+        costs.append(cost)
+    sorted_indices = np.argsort(costs)
+    students_distributions = [students_distributions[i] for i in sorted_indices]
+    costs = [costs[i] for i in sorted_indices]
+    return students_distributions[:10], costs[:10]

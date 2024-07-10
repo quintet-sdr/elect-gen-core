@@ -35,9 +35,9 @@ def main():
             print("Courses and students must be loaded before distribution.")
         else:
             if args.algorithm == 'gen':
-                best_distribution = selectDistribution(1)
+                best_distribution, best_distribution_cost = selectDistribution(1)
             elif args.algorithm == 'basic':
-                best_distribution = selectDistribution(2)
+                best_distribution, best_distribution_cost = selectDistribution(2)
             else:
                 print(f"Unknown algorithm: {args.algorithm}")
                 return
@@ -47,7 +47,7 @@ def main():
         if 'students' not in locals():
             print("Students must be loaded before writing results.")
         else:
-            writeResults(best_distribution)
+            writeResults(best_distribution, best_distribution_cost, courses)
             print("Results written successfully.")
 
 
