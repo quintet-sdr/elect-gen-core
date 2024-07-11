@@ -10,6 +10,17 @@ distribution of students across available courses.
 
 *Screenshots or a video link demonstrating the system in action.*
 
+## Project Installation / Deployment
+
+1. Ensure Python 3.12 or higher is installed.
+2. Clone the repository to your local machine.
+3. Navigate to the project directory.
+4. Install required dependencies with
+
+```shell
+pip install -r requirements.txt
+```
+
 ## How to Use
 
 To use the system, follow these steps:
@@ -17,47 +28,46 @@ To use the system, follow these steps:
 1. Student and course information should be provided in Excel files.
    Student information should be named `Student table.xlsx` and have columns like the example.
    Course information should be named `Courses table.xlsx` and have columns like the example.
-   Results will be written to a file named `Results.xlsx`.
-2. System supports basic algorithm and genetic algorithm (**work in progress**) for student allocation to courses.
-   To run the system with basic algorithm, execute the following command in your terminal:
+   Results will be written to a file named `path/to/students.json` (make sure to change `path/to/students.json` to your
+   actual path and prefered name of file).
+2. The system supports converting Excel files to JSON format and then distributing students to courses based on
+   preferences and priorities.
+   To convert Excel files to JSON and run the distribution algorithm, execute the following command in your terminal:
 
 ```shell
-python algorithm_cli.py --read-courses --read-students --distribute --write-results --algorithm basic
+python algorithm_cli.py --convert --courses Courses.xlsx --students1 Students1.xlsx --students2 Students2.xlsx --output path/to/students.json
 ```
 
-**BROKEN:** To run the system with genetic algorithm, execute the following command in your terminal:
+This command will convert the specified Excel files for courses and students into JSON format, merge the student
+information.
+
+To run algorithm with converted JSON files, execute the following command in your terminal:
 
 ```shell
-python algorithm_cli.py --read-courses --read-students --distribute --write-results --algorithm gen
+python algorithm_cli.py --courses path\to\courses.json --students1 path\to\students.json --output path\to\distribution.json
 ```
 
-These commands will read course and student information, distribute students to courses using specified algorithm, and
-write the results to an Excel file.
+Available flags for converting:
 
-Available flags:
+- `--convert`: Convert Excel files to JSON.
+- `--courses`: Path to the courses Excel file.
+- `--students1`: Path to the first students Excel file.
+- `--students2`: Path to the second students Excel file.
+- `--output`: Path to the output JSON file.
 
-- `--read-courses`: Read courses information from the specified Excel file.
-- `--read-students`: Read students information from the specified Excel file.
-- `--distribute`: Distribute students to courses based on preferences and priorities.
-- `--write-results`: Write the final allocation results to an Excel file.
-- `--algorithm`: Specify the algorithm to use for student allocation. Options: `basic`, `gen`.
+Available flags for running the algorithm:
+
+- `--courses`: Path to the courses JSON file.
+- `--students1`: Path to the students JSON file.
+- `--output`: Path to the output JSON file.
 
 ## Features
 
-- Supports two algorithms for student course allocation: Basic and Genetic Algorithm.
+- Converts student and course information from Excel to JSON.
+- Supports a basic algorithm for student course allocation.
 - Reads student and course information from Excel files.
-- Writes allocation results to an Excel file.
+- Writes allocation results to a JSON file.
 - Configurable through command line flags.
-
-## Project Installation / Deployment
-
-1. Ensure Python 3.9 or higher is installed.
-2. Clone the repository to your local machine.
-3. Navigate to the project directory.
-4. Install required dependencies with 
-```shell
-pip install -r requirements.txt
-```
 
 ## Frameworks or Technology
 
