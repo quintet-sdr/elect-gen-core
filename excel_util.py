@@ -57,9 +57,9 @@ def writeResults(students_distributions, costs, courses):
         os.remove("Results.xlsx")
     results = Workbook()
     costs_dict = {cost: students for students, cost in zip(students_distributions, costs)}
-
+    numeration = 1
     for cost, students in costs_dict.items():
-        resultsSheetResults = results.create_sheet(title=f"Result {cost}")
+        resultsSheetResults = results.create_sheet(title=f"Result {numeration}")
         resultsSheetResults.append(
             ["Student ID", "Student Name", "Final priority", "Course Name", "Actual Course Name", "1 priority",
              "2 priority",
@@ -86,5 +86,6 @@ def writeResults(students_distributions, costs, courses):
             resultsSheetResults.cell(row=2, column=k + 14, value=totalCourseResults[k])
         for k in range(0, len(courses)):
             resultsSheetResults.cell(row=3, column=k + 14, value=totalCourseQuotas[k])
+        numeration += 1
     print("Results written in table")
     results.save("Results.xlsx")

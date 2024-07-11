@@ -139,7 +139,7 @@ def startBasicAlgorithm(students_file_path, courses_file_path):
     print("Starting algorithm...")
     students_distributions = []
     costs = []
-    for _ in range(5):
+    for _ in range(20):
         students_copy = [copy.deepcopy(s) for s in students]
         courses_copy = [copy.deepcopy(c) for c in courses]
         students_copy, cost = Distribute(students_copy, courses_copy)
@@ -149,7 +149,7 @@ def startBasicAlgorithm(students_file_path, courses_file_path):
     sorted_indices = np.argsort(costs)
     students_distributions = [students_distributions[i] for i in sorted_indices]
     costs = [costs[i] for i in sorted_indices]
-    best_distribution_students = students_distributions[:10]
-    best_distribution_cost = costs[:10]
+    best_distribution_students = students_distributions[:20]
+    best_distribution_cost = costs[:20]
     print("Algorithm finished")
     return best_distribution_students, best_distribution_cost
