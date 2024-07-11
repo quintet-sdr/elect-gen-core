@@ -1,3 +1,5 @@
+"""Excel utility functions for reading and writing data from and to Excel files"""
+
 import os
 import random
 from openpyxl import load_workbook, Workbook
@@ -5,6 +7,10 @@ from models import Course, Student
 
 
 def readCoursesInfo():
+    """Reads course information from the Courses.xlsx file and returns a list of Course objects
+    :return: list of Course objects
+    """
+
     courseFile = 'Courses.xlsx'
     courseWB = load_workbook(courseFile)
     courseSheet = courseWB[courseWB.sheetnames[0]]
@@ -18,6 +24,13 @@ def readCoursesInfo():
 
 
 def readStudentsInfo(courses, students, name):
+    """Reads student information from the given Excel file and appends the students to the given list
+    :param courses: list of Course objects
+    :param students: list of Student objects
+    :param name: name of the Excel file
+    :return: None
+    """
+
     studentFile = name
     studentWB = load_workbook(studentFile)
     studentSheet = studentWB[studentWB.sheetnames[0]]
@@ -52,6 +65,13 @@ def readStudentsInfo(courses, students, name):
 
 
 def writeResults(students_distributions, costs, courses):
+    """Writes the results of the algorithm in the Results.xlsx file
+    :param students_distributions: list of lists of Student objects
+    :param costs: list of costs
+    :param courses: list of Course objects
+    :return: None
+    """
+
     print("Writing results in table...")
     if "Results.xlsx" in os.listdir():
         os.remove("Results.xlsx")
