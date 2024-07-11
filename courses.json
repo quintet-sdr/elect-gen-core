@@ -1,0 +1,77 @@
+[
+    {
+        "ID": 1,
+        "Course": "Branding & Marketing in IT industry",
+        "Quota": 80
+    },
+    {
+        "ID": 2,
+        "Course": "Introduction to 3D Modeling",
+        "Quota": 60
+    },
+    {
+        "ID": 3,
+        "Course": "Deep Learning for Search",
+        "Quota": 40
+    },
+    {
+        "ID": 4,
+        "Course": "MLOps Engineering",
+        "Quota": 40
+    },
+    {
+        "ID": 5,
+        "Course": "Front-end Web Development",
+        "Quota": 120
+    },
+    {
+        "ID": 6,
+        "Course": "Introduction to Neuroscience",
+        "Quota": 40
+    },
+    {
+        "ID": 7,
+        "Course": "Introduction to Prototyping",
+        "Quota": 40
+    },
+    {
+        "ID": 8,
+        "Course": "Architecture of Computing Devices",
+        "Quota": 40
+    },
+    {
+        "ID": 9,
+        "Course": "Real-Time Scheduling Theory",
+        "Quota": 28
+    },
+    {
+        "ID": 10,
+        "Course": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Quota": 40
+    },
+    {
+        "ID": 11,
+        "Course": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Quota": 40
+    },
+    {
+        "ID": 12,
+        "Course": "Cross-platform Mobile Development with Flutter",
+        "Quota": 40
+    },
+    {
+        "ID": 13,
+        "Course": "Advanced Programming in C/C++ (Russian only)",
+        "Quota": 40
+    },
+    {
+        "ID": 14,
+        "Course": "Introduction to Mechanical Engineering",
+        "Quota": 40
+    },
+    {
+        "ID": 15,
+        "Course": "Introduction to Electronic and Logic Circuits",
+        "Quota": 40
+    }
+]

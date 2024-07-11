@@ -7,6 +7,15 @@ from ga import genetic_algorithm
 import math
 from openpyxl import Workbook
 from multiprocessing import Pool
+import json
+
+
+def readCoursesInfoJson(file_path):
+    with open(file_path, 'r') as f:
+        courses_data = json.load(f)
+    courses = [Course(data.get('ID', -1), data.get('Course', "ERROR"),
+                      data.get('Quota', 0)) for data in courses_data]
+    return courses
 
 
 def calculate_success_rate(num_students):
@@ -72,7 +81,7 @@ def memoize(func):
 
 
 def readCoursesInfo():
-    courseFile = 'Courses table.xlsx'
+    courseFile = 'Courses.xlsx'
     courseWB = load_workbook(courseFile)
     courseSheet = courseWB[courseWB.sheetnames[0]]
     courses = []
@@ -137,11 +146,13 @@ def writeResults(students_distributions, costs, courses):
         totalCourseQuotas = [course.quota for course in courses]
         for student in students:
             resultsSheetResults.append([student.ID, student.name, student.finalPriority, student.finalCourse,
-                                        student.keywords[student.finalPriority - 1].name])
+                                        student.keywords[
+                                            student.finalPriority - 1].name if student.finalPriority <= 5 else ""])
             if 1 <= student.finalPriority <= 7:
                 totalResults[student.finalPriority - 1] += 1
-            totalCourseResults[
-                courses.index([course for course in courses if course.name == student.finalCourse][0])] += 1
+            matching_courses = [course for course in courses if course.name == student.finalCourse]
+            if matching_courses:  # Check if the list is not empty
+                totalCourseResults[courses.index(matching_courses[0])] += 1
         for j in range(0, 7):
             resultsSheetResults.cell(row=2, column=j + 6, value=totalResults[j])
         resultsSheetResults.cell(row=2, column=13, value="Distribution:")
@@ -258,8 +269,8 @@ def selectDistribution(cmd):
     best_distribution_cost = None
     courses = readCoursesInfo()
     students = []
-    readStudentsInfo(courses, students, "Students table.xlsx")
-    readStudentsInfo(courses, students, "Students table 2.xlsx")
+    readStudentsInfo(courses, students, "Students1.xlsx")
+    readStudentsInfo(courses, students, "Students2.xlsx")
     students_dict = get_student_by_id(students)
     if cmd == 1:
         best_distribution = genetic_algorithm(students, courses)
