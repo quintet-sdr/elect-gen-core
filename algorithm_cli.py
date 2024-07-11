@@ -26,7 +26,7 @@ def main():
             json.dump(students, f_out, indent=4)
     else:
         courses = readCoursesInfoJson('courses.json')
-        best_distributions, best_distribution_costs = selectDistribution(2)
+        best_distributions, best_distribution_costs = selectDistribution(2, args.students1, args.courses)
         print(', '.join(course.name for course in courses))
         writeResults(best_distributions, best_distribution_costs, courses)
 
