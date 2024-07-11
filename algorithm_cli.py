@@ -7,7 +7,7 @@ import json
 
 def main():
     parser = argparse.ArgumentParser(prog='elect-gen-core', description="Student Course Allocation System")
-    parser.add_argument('--convert_to_json', action='store_true', help='Convert Excel files to JSON')
+    parser.add_argument('--convert', action='store_true', help='Convert Excel files to JSON')
     parser.add_argument('--courses', type=str, help='Path to courses Excel file')
     parser.add_argument('--students1', type=str, help='Path to first students Excel file')
     parser.add_argument('--students2', type=str, help='Path to second students Excel file')
@@ -15,11 +15,11 @@ def main():
 
     args = parser.parse_args()
 
-    if args.convert_to_json:
+    if args.convert:
         format_json_file(excel_to_json(args.courses, 'courses.json'))
         format_json_file(excel_to_json(args.students1, 'students1.json'))
         format_json_file(excel_to_json(args.students2, 'students2.json'))
-        with open('students1.json', 'r') as f1, open('students2.json', 'r') as f2, open(args.output, 'w') as f_out:
+        with open('students1.json', 'r') as f1, open('students2.json', 'r') as f2, open('students.json', 'w') as f_out:
             students1 = json.load(f1)
             students2 = json.load(f2)
             students = students1 + students2
