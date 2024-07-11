@@ -1,3 +1,5 @@
+"""Command line interface for the algorithm"""
+
 import argparse
 from main import startBasicAlgorithm
 from json_util import excel_to_json, format_json_file, readCoursesInfoJson
@@ -6,6 +8,8 @@ import json
 
 
 def main():
+    """Main function for the command line interface"""
+
     parser = argparse.ArgumentParser(prog='elect-gen-core', description="Student Course Allocation System")
     parser.add_argument('--convert', action='store_true', help='Convert Excel files to JSON')
     parser.add_argument('--courses', type=str, help='Path to courses Excel file')

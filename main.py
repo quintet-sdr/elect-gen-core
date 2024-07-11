@@ -1,3 +1,6 @@
+"""Core algorithm for distributing students to courses.
+"""
+
 import copy
 import numpy as np
 import random
@@ -6,6 +9,11 @@ from json_util import readCoursesInfoJson, readStudentsInfoJson
 
 
 def calculate_success_rate(num_students):
+    """Calculates the success rate based on the number of students in a course
+    :param num_students: number of students in the course
+    :return: success rate
+    """
+
     if 0 <= num_students <= 16:
         return 0
     elif 17 <= num_students <= 20:
@@ -34,6 +42,11 @@ success_rate_dict = {i: calculate_success_rate(i) for i in range(0, 1000)}
 
 
 def memoize(func):
+    """Memoization decorator for the cost function
+    :param func: cost function
+    :return: memoized function
+    """
+
     cache = dict()
 
     def memoized_func(*args):
@@ -49,6 +62,12 @@ def memoize(func):
 
 @memoize
 def costFunction(students, courses):
+    """Cost function for the algorithm
+    :param students: list of Student objects
+    :param courses: list of Course objects
+    :return: cost
+    """
+
     cost = 0
     student_priorities = np.array([student.finalPriority for student in students])
     student_GPAs = np.array([max(student.GPA, 0.1) for student in students])
@@ -60,6 +79,12 @@ def costFunction(students, courses):
 
 
 def Distribute(students, courses):
+    """Distributes students to courses
+    :param students: list of Student objects
+    :param courses: list of Course objects
+    :return: distributed students and cost
+    """
+
     random.shuffle(students)
     students.sort(key=lambda student: student.GPA, reverse=True)
     for student in students:
@@ -90,6 +115,12 @@ def Distribute(students, courses):
 
 
 def improveDistribution(students, courses):
+    """Improves the distribution of students to courses
+    :param students: list of Student objects
+    :param courses: list of Course objects
+    :return: improved students and cost
+    """
+
     noImprovements = 0
     cost = costFunction(students, courses)
     print("Initial cost: ", cost)
@@ -129,6 +160,12 @@ def improveDistribution(students, courses):
 
 
 def startBasicAlgorithm(students_file_path, courses_file_path):
+    """Starts the basic algorithm
+    :param students_file_path: path to the students JSON file
+    :param courses_file_path: path to the courses JSON file
+    :return: best distribution of students and cost
+    """
+
     print("Reading courses...")
     courses = readCoursesInfoJson(courses_file_path)
     print("Courses read")
