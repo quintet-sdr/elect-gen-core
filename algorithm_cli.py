@@ -1,7 +1,7 @@
 import argparse
-from main import readCoursesInfo, readStudentsInfo, Distribute, writeResults, Course, selectDistribution, \
-    readCoursesInfoJson
-from excel_to_json import excel_to_json, format_json_file
+from main import startBasicAlgorithm
+from json_util import excel_to_json, format_json_file, readCoursesInfoJson
+from excel_util import writeResults
 import json
 
 
@@ -16,27 +16,36 @@ def main():
     args = parser.parse_args()
 
     if args.convert:
+        print('Converting to JSON...')
         format_json_file(excel_to_json(args.courses, 'courses.json'))
+        print('Courses converted to JSON')
+        print('Converting to JSON...')
         format_json_file(excel_to_json(args.students1, 'students1.json'))
+        print('Students1 converted to JSON')
+        print('Converting to JSON...')
         format_json_file(excel_to_json(args.students2, 'students2.json'))
+        print('Students2 converted to JSON \n Merging students...')
         with open('students1.json', 'r') as f1, open('students2.json', 'r') as f2, open('students.json', 'w') as f_out:
             students1 = json.load(f1)
             students2 = json.load(f2)
             students = students1 + students2
             json.dump(students, f_out, indent=4)
+            print('Students merged')
     else:
         courses = readCoursesInfoJson('courses.json')
-        best_distributions, best_distribution_costs = selectDistribution(2, args.students1, args.courses)
-        print(', '.join(course.name for course in courses))
+        best_distributions, best_distribution_costs = startBasicAlgorithm(args.students1, args.courses)
+
         writeResults(best_distributions, best_distribution_costs, courses)
 
         all_distributions = {}
+        print('Writing output in JSON...')
         for i, distribution in enumerate(best_distributions, 1):
             distribution_data = [{'student': s.ID, 'course': s.finalCourse} for s in distribution]
             all_distributions[f'Distribution {i}, Cost: {best_distribution_costs[i - 1]}'] = distribution_data
 
         with open(args.output, 'w') as f:
             json.dump(all_distributions, f, indent=4)
+        print('Output written in JSON')
 
 
 if __name__ == "__main__":
