@@ -42,7 +42,7 @@ Available flags:
 - `--write-results`: Write the final allocation results to an Excel file.
 - `--algorithm`: Specify the algorithm to use for student allocation. Options: `basic`, `gen`.
 
-## ⚡ Features
+## ✨ Features
 
 - Supports two algorithms for student course allocation: Basic and Genetic Algorithm.
 - Reads student and course information from Excel files.
