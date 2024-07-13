@@ -50,7 +50,7 @@ release:
     - apt-get update && apt-get install -y --no-install-recommends git-core ca-certificates
     - npm install -g semantic-release @semantic-release/gitlab @semantic-release/changelog conventional-changelog-conventionalcommits @semantic-release/commit-analyzer @semantic-release/git @semantic-release/exec 
   script:
-    - semantic-release -e @semantic-release/gitlab-config @semantic-release/exec
+    - semantic-release -e @semantic-release/exec
   only:
     - feature-changelog
 #pages:
