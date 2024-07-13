@@ -52,7 +52,7 @@ release:
   script:
     - semantic-release
   only:
-    - dev-new
+    - feature-changelog
 #pages:
 #  stage: deploy
 #  image: alpine:latest
