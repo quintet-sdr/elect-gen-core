@@ -1,0 +1,25 @@
+{
+  "name": "@semantic-release/npm",
+  "description": "semantic-release",
+  "version": "0.0.0-development",
+  "author": "",
+  "release": {
+    "analyzeCommits": "@semantic-release/commit-analyzer",
+    "generateNotes": "@semantic-release/release-notes-generator",
+    "publish": "@semantic-release/gitlab",
+    "success": false,
+    "fail": false,
+    "branches": [
+      "feature-changelog"
+    ],
+    "npmPublish": false
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
+    ["@semantic-release/exec", {
+      "prepareCmd": "./update-version.sh ${nextRelease.version}",
+    }]
+  ]
+}
