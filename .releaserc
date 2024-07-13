@@ -11,6 +11,7 @@
                 "preset": "conventionalcommits"
             }
         ], 
+        "@semantic-release/npm",
         [ 
             "@semantic-release/changelog",
             {
@@ -23,5 +24,11 @@
                 "message": "chore: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
         ]
+        [
+            "@semantic-release/exec", 
+            {
+                "prepareCmd": "./update-version.sh ${nextRelease.version}",
+            }
+        ],
     ]
 }
