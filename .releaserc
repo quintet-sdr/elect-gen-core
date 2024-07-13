@@ -18,12 +18,6 @@
             }
         ],
         [
-            "@semantic-release/exec", 
-            {
-                "prepareCmd": ${nextRelease.version}",
-            }
-        ],
-        [
             "@semantic-release/git",
             {
                 "message": "chore: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
