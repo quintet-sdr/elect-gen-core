@@ -6,6 +6,8 @@ from models import Course, Student
 import pandas as pd
 import matplotlib.pyplot as plt
 from io import BytesIO
+import seaborn as sns
+from matplotlib.font_manager import fontManager, FontProperties
 
 
 def readCoursesInfo():
@@ -86,30 +88,31 @@ def writeResults(students_distributions, costs, courses, courses_rate_dict):
 
     row = 0
     col = 0
-    plot_height = 24  # Adjust based on your plot size
+    plot_height = 24
 
     for course in courses:
-        # Retrieve x and y values for the current course from courses_rate_dict
-        x_values = list(courses_rate_dict[course.name].keys())
-        y_values = list(courses_rate_dict[course.name].values())
+        x_values = list(courses_rate_dict[course.name].keys())[:course.quota + 1]
+        y_values = list(courses_rate_dict[course.name].values())[:course.quota + 1]
         y_values = [-y for y in y_values]
-
-        # Generate and save plot to a buffer
+        sns.set_style("whitegrid")
         fig, ax = plt.subplots()
-        ax.plot(x_values, y_values)
-        ax.set_title(f'Success Rate for {course.name}')
-        ax.set_xlabel('Number of Students')
-        ax.set_ylabel('Success Rate')
+        ax.plot(x_values, y_values, linewidth=2, alpha=0.7, color='#40BA21')
+        path = "fonts/Montserrat-Regular.ttf"
+        fontManager.addfont(path)
+        prop = FontProperties(fname=path, size=14)
+        ax.set_title(f'Success Rate for {course.name}', fontproperties=prop)
+        ax.set_xlabel('Number of Students', fontsize=12, fontproperties=prop)
+        ax.set_ylabel('Success Rate', fontsize=12, fontproperties=prop)
+        ax.tick_params(axis='both', labelsize=12)
+        ax.grid(True)
+        plt.tight_layout()
         buffer = BytesIO()
         plt.savefig(buffer, format='png')
         buffer.seek(0)
 
-        # Insert plot into the worksheet
         worksheet.insert_image(row, col, f'{course.name}.png', {'image_data': buffer})
-        row += plot_height  # Move to the next plot position
+        row += plot_height
 
-    # After plots, write the algorithm results
-    # Adjust `row` as needed to place the data below the last plot
     numeration = 1
     costs_dict = {cost: students for students, cost in zip(students_distributions, costs)}
     for cost, students in costs_dict.items():

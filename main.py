@@ -44,7 +44,7 @@ def course_success_rate(num_students, a, b, c, d, limit):
     """
     if num_students == 0:
         return -15.6
-    if num_students < limit:
+    elif num_students < limit:
         return -get_course_rate(num_students, a, b, c, d)
     else:
         return 0
@@ -204,12 +204,6 @@ def startBasicAlgorithm(students_file_path, courses_file_path):
         y_values = [course_success_rate(x, 10, 20, 30, 40, max_quota) for x in x_values]
         courses_rate_dict[i.name] = {x: y for x, y in zip(x_values, y_values)}
     print(courses_rate_dict)
-    # plt.plot(x_values, y_values)
-    # plt.xlabel('x')
-    # plt.ylabel('y')
-    # plt.title('Piecewise Function')
-    # plt.grid(True)
-    # plt.show()
     for _ in range(10):
         students_copy = [copy.deepcopy(s) for s in students]
         courses_copy = [copy.deepcopy(c) for c in courses]
