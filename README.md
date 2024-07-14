@@ -1,17 +1,71 @@
-# Student Course Allocation System
+# Elect.Gen Core
 
-## 📜 Project Description
+This repository is a service of the
+[Elect.Gen](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen) project.
+Navigate there to learn more.
 
-The Student Course Allocation System is designed to efficiently allocate students to courses based on their preferences
-and priorities. It supports both a basic allocation algorithm and a more complex genetic algorithm to optimize the
-distribution of students across available courses.
+## 🧰 Tooling
 
-## 🎬 Demo
+- 🐍 Programming language: [Python](https://github.com/python/cpython)
+- 📦 Package manager: [Pip](https://github.com/python-pip/pip)
+- 📚 External Libraries: `xlwt` for writing Excel files, `openpyxl` for reading Excel files, `pytest` for testing.
 
-*Screenshots or a video link demonstrating the system in action.*
+## 🖥️ Launch locally
 
-## ⚙️ How to Use
+<details open>
+<summary open>
+<b>Clone the entire project (recommended):</b>
+</summary>
 
+### Clone the main repository
+
+For example, you can do it via HTTPS:
+
+```console
+git clone --recurse-submodules https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen.git
+```
+
+### Open the core directory
+
+```shell
+cd elect-gen/services/core/
+```
+
+</details>
+
+<details>
+<summary>
+<b>Clone the core only:</b>
+</summary>
+
+> We recommend you not follow this option.
+
+### Clone the core repository
+
+For example, you can do it via HTTPS:
+
+```console
+git clone https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core.git
+```
+### Open the cloned directory
+
+```shell
+cd elect-gen-backend/
+```
+
+</details>
+
+### How to use
+
+Make sure you have the follows:
+
+1. Ensure Python 3.9 or higher is installed.
+2. Clone the repository to your local machine.
+3. Navigate to the project directory.
+4. Install required dependencies with 
+```shell
+pip install -r requirements.txt
+```
 To use the system, follow these steps:
 
 1. Student and course information should be provided in Excel files.
@@ -49,20 +103,13 @@ Available flags:
 - Writes allocation results to an Excel file.
 - Configurable through command line flags.
 
-## ⚒️ Project Installation / Deployment
+## 📄 License
 
-1. Ensure Python 3.9 or higher is installed.
-2. Clone the repository to your local machine.
-3. Navigate to the project directory.
-4. Install required dependencies with 
-```shell
-pip install -r requirements.txt
-```
+The project is licensed under the [MIT License](/LICENSE).
 
-## 🤖 Frameworks or Technology
+(c) [SDR](https://gitlab.pg.innopolis.university/sdr-sum24/) /
+[Innopolis University](https://innopolis.university/en/). All rights reserved.
 
-- **Language:** `Python`
-- **Package Manager:** `pip`
-- **External Libraries:** `xlwt` for writing Excel files, `openpyxl` for reading Excel files, `pytest` for testing.
+
 
 
