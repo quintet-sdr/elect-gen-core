@@ -1,5 +1,4 @@
 """Excel utility functions for reading and writing data from and to Excel files"""
-
 import os
 import random
 from models import Course, Student
@@ -134,7 +133,8 @@ def writeResults(students_distributions, costs, courses, courses_rate_dict):
         statistics_data = {'Total Results': totalResults, 'Total Course Results': totalCourseResults,
                            'Total Course Quotas': totalCourseQuotas, 'Total Course Names': totalCourseNames}
         df_statistics = pd.DataFrame(statistics_data)
-        df_statistics.to_excel(writer, sheet_name=f'Result {numeration}', index=False)
+        sheet_name = f'Res {numeration} | Cost {cost:.2f}'
+        df_statistics.to_excel(writer, sheet_name=sheet_name, index=False)
         data = {'Student ID': [student.ID for student in students],
                 'Student Name': [student.name for student in students],
                 'Final priority': [student.finalPriority for student in students],
@@ -143,7 +143,7 @@ def writeResults(students_distributions, costs, courses, courses_rate_dict):
                     student.keywords[student.finalPriority - 1].name if student.finalPriority <= 5 else "" for student
                     in students]}
         df = pd.DataFrame(data)
-        df.to_excel(writer, sheet_name=f'Result {numeration}', startrow=len(df_statistics) + 2, index=False)
+        df.to_excel(writer, sheet_name=sheet_name, startrow=len(df_statistics) + 2, index=False)
         numeration += 1
     writer._save()
 
