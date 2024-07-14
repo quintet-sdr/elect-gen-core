@@ -4,9 +4,7 @@
 import copy
 import numpy as np
 import random
-import math
 from json_util import readCoursesInfoJson, readStudentsInfoJson
-import matplotlib.pyplot as plt
 
 success_rate_dict = {}
 courses_rate_dict = {}
@@ -29,7 +27,7 @@ def get_course_rate(x, a, b, c, d, coeff_decrease=0.1):
     if x < c:
         return line
     if x < d:
-        return max(-(x - c) ** 2 * coeff + line, line / 2)
+        return max(-(x - c) ** 2 * coeff + line, line / 1.6)
 
 
 def course_success_rate(num_students, a, b, c, d, limit):
@@ -80,11 +78,11 @@ def costFunction(students, courses):
     cost = 0
     student_priorities = np.array([student.finalPriority for student in students])
     student_GPAs = np.array([max(student.GPA, 0.1) for student in students])
-    cost += np.sum((student_priorities ** 1.5) / student_GPAs)
+    cost += np.sum((student_priorities ** 3) / student_GPAs * 6)
     for course in courses:
         numOfStudents = len(course.students)
         course_rate = courses_rate_dict[course.name]
-        cost += course_rate[numOfStudents] ** 3
+        cost += course_rate[numOfStudents] * 5
     return cost
 
 
@@ -201,7 +199,7 @@ def startBasicAlgorithm(students_file_path, courses_file_path):
     print("Max quota: ", max_quota)
     for i in courses:
         x_values = [x for x in range(len(students))]
-        y_values = [course_success_rate(x, 10, 20, 30, 40, max_quota) for x in x_values]
+        y_values = [course_success_rate(x, 10, 22, 28, 40, max_quota) for x in x_values]
         courses_rate_dict[i.name] = {x: y for x, y in zip(x_values, y_values)}
     print(courses_rate_dict)
     for _ in range(10):
