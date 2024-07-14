@@ -4,6 +4,8 @@ import os
 import random
 from models import Course, Student
 import pandas as pd
+import matplotlib.pyplot as plt
+from io import BytesIO
 
 
 def readCoursesInfo():
@@ -65,11 +67,12 @@ def readStudentsInfo(courses, students, name):
     students.sort(key=lambda student: student.GPA, reverse=True)
 
 
-def writeResults(students_distributions, costs, courses):
+def writeResults(students_distributions, costs, courses, courses_rate_dict):
     """Writes the results of the algorithm in an Excel file
     :param students_distributions: list of lists of Student objects
     :param costs: list of costs
     :param courses: list of Course objects
+    :param courses_rate_dict: dictionary of course rates
     :return: None
     """
 
@@ -77,8 +80,38 @@ def writeResults(students_distributions, costs, courses):
     if "Results.xlsx" in os.listdir():
         os.remove("Results.xlsx")
     writer = pd.ExcelWriter('Results.xlsx', engine='xlsxwriter')
-    costs_dict = {cost: students for students, cost in zip(students_distributions, costs)}
+    workbook = writer.book
+    worksheet = workbook.add_worksheet('Plots and Results')
+    writer.sheets['Plots and Results'] = worksheet
+
+    row = 0
+    col = 0
+    plot_height = 24  # Adjust based on your plot size
+
+    for course in courses:
+        # Retrieve x and y values for the current course from courses_rate_dict
+        x_values = list(courses_rate_dict[course.name].keys())
+        y_values = list(courses_rate_dict[course.name].values())
+        y_values = [-y for y in y_values]
+
+        # Generate and save plot to a buffer
+        fig, ax = plt.subplots()
+        ax.plot(x_values, y_values)
+        ax.set_title(f'Success Rate for {course.name}')
+        ax.set_xlabel('Number of Students')
+        ax.set_ylabel('Success Rate')
+        buffer = BytesIO()
+        plt.savefig(buffer, format='png')
+        buffer.seek(0)
+
+        # Insert plot into the worksheet
+        worksheet.insert_image(row, col, f'{course.name}.png', {'image_data': buffer})
+        row += plot_height  # Move to the next plot position
+
+    # After plots, write the algorithm results
+    # Adjust `row` as needed to place the data below the last plot
     numeration = 1
+    costs_dict = {cost: students for students, cost in zip(students_distributions, costs)}
     for cost, students in costs_dict.items():
         totalResults = [0] * 7
         totalCourseResults = [0] * len(courses)

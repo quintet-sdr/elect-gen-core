@@ -6,39 +6,48 @@ import numpy as np
 import random
 import math
 from json_util import readCoursesInfoJson, readStudentsInfoJson
+import matplotlib.pyplot as plt
+
+success_rate_dict = {}
+courses_rate_dict = {}
 
 
-def calculate_success_rate(num_students):
+def get_course_rate(x, a, b, c, d, coeff_decrease=0.1):
+    period = d - b
+    current_period = (x - b) // period
+    coeff = 1 - coeff_decrease * current_period
+    if current_period <= 0:
+        if x < a:
+            return 0
+    else:
+        x = (x - b) % period + b
+    if x < a:
+        return 0
+    if x < b:
+        return max(coeff * (x - a) ** 2, 0)
+    line = coeff * (b - a) ** 2
+    if x < c:
+        return line
+    if x < d:
+        return max(-(x - c) ** 2 * coeff + line, line / 2)
+
+
+def course_success_rate(num_students, a, b, c, d, limit):
     """Calculates the success rate based on the number of students in a course
     :param num_students: number of students in the course
+    :param a: lower bound for the first piecewise function
+    :param b: upper bound for the first piecewise function
+    :param c: lower bound for the second piecewise function
+    :param d: upper bound for the second piecewise function
+    :param limit: limit for the number of students
     :return: success rate
     """
-
-    if 0 <= num_students <= 16:
-        return 0
-    elif 17 <= num_students <= 20:
-        return math.exp(num_students - 16)
-    elif 21 <= num_students <= 28:
-        return math.exp(4 - (num_students - 20))
-    elif 29 <= num_students <= 34:
-        return math.exp(num_students - 28)
-    elif 35 <= num_students <= 40:
-        return math.exp(6 - (num_students - 34))
-    elif 41 <= num_students <= 56:
-        return math.exp(num_students - 40)
-    elif 57 <= num_students <= 72:
-        return math.exp(16 - (num_students - 56))
-    elif 73 <= num_students <= 88:
-        return math.exp(num_students - 72)
-    elif 89 <= num_students <= 104:
-        return math.exp(16 - (num_students - 88))
-    elif 105 <= num_students <= 120:
-        return math.exp(num_students - 104)
+    if num_students == 0:
+        return -15.6
+    if num_students < limit:
+        return -get_course_rate(num_students, a, b, c, d)
     else:
         return 0
-
-
-success_rate_dict = {i: calculate_success_rate(i) for i in range(0, 1000)}
 
 
 def memoize(func):
@@ -71,10 +80,11 @@ def costFunction(students, courses):
     cost = 0
     student_priorities = np.array([student.finalPriority for student in students])
     student_GPAs = np.array([max(student.GPA, 0.1) for student in students])
-    cost += np.sum((student_priorities ** 2) / student_GPAs)
+    cost += np.sum((student_priorities ** 1.5) / student_GPAs)
     for course in courses:
         numOfStudents = len(course.students)
-        cost += success_rate_dict[numOfStudents] ** 4
+        course_rate = courses_rate_dict[course.name]
+        cost += course_rate[numOfStudents] ** 3
     return cost
 
 
@@ -109,6 +119,7 @@ def Distribute(students, courses):
                 course.students.append(student)
                 student.isDistributed = True
                 student.finalCourse = course.name
+                course.quota -= 1
                 student.finalPriority = len(student.availableCourses)
     cost = costFunction(students, courses)
     return students, cost
@@ -159,13 +170,23 @@ def improveDistribution(students, courses):
     return students, cost
 
 
-def startBasicAlgorithm(students_file_path, courses_file_path):
-    """Starts the basic algorithm
-    :param students_file_path: path to the students JSON file
-    :param courses_file_path: path to the courses JSON file
-    :return: best distribution of students and cost
+def max_qouta_course(courses):
+    """Returns the course with the maximum quota
+    :param courses: list of Course objects
+    :return: course with the maximum quota
     """
 
+    max_quota = 0
+    max_quota_course = None
+    for course in courses:
+        if course.quota > max_quota:
+            max_quota = course.quota
+            max_quota_course = course
+    return max_quota_course
+
+
+def startBasicAlgorithm(students_file_path, courses_file_path):
+    global success_rate_dict
     print("Reading courses...")
     courses = readCoursesInfoJson(courses_file_path)
     print("Courses read")
@@ -176,7 +197,20 @@ def startBasicAlgorithm(students_file_path, courses_file_path):
     print("Starting algorithm...")
     students_distributions = []
     costs = []
-    for _ in range(20):
+    max_quota = max_qouta_course(courses).quota + 1
+    print("Max quota: ", max_quota)
+    for i in courses:
+        x_values = [x for x in range(len(students))]
+        y_values = [course_success_rate(x, 10, 20, 30, 40, max_quota) for x in x_values]
+        courses_rate_dict[i.name] = {x: y for x, y in zip(x_values, y_values)}
+    print(courses_rate_dict)
+    # plt.plot(x_values, y_values)
+    # plt.xlabel('x')
+    # plt.ylabel('y')
+    # plt.title('Piecewise Function')
+    # plt.grid(True)
+    # plt.show()
+    for _ in range(10):
         students_copy = [copy.deepcopy(s) for s in students]
         courses_copy = [copy.deepcopy(c) for c in courses]
         students_copy, cost = Distribute(students_copy, courses_copy)
@@ -186,7 +220,7 @@ def startBasicAlgorithm(students_file_path, courses_file_path):
     sorted_indices = np.argsort(costs)
     students_distributions = [students_distributions[i] for i in sorted_indices]
     costs = [costs[i] for i in sorted_indices]
-    best_distribution_students = students_distributions[:20]
-    best_distribution_cost = costs[:20]
+    best_distribution_students = students_distributions[:10]
+    best_distribution_cost = costs[:10]
     print("Algorithm finished")
-    return best_distribution_students, best_distribution_cost
+    return best_distribution_students, best_distribution_cost, courses_rate_dict

@@ -37,9 +37,9 @@ def main():
             print('Students merged')
     else:
         courses = readCoursesInfoJson('courses.json')
-        best_distributions, best_distribution_costs = startBasicAlgorithm(args.students1, args.courses)
+        best_distributions, best_distribution_costs, courses_rate_dict = startBasicAlgorithm(args.students1, args.courses)
 
-        writeResults(best_distributions, best_distribution_costs, courses)
+        writeResults(best_distributions, best_distribution_costs, courses, courses_rate_dict)
 
         all_distributions = {}
         print('Writing output in JSON...')
