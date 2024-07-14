@@ -7,7 +7,7 @@ Navigate there to learn more.
 ## 🧰 Tooling
 
 - 🐍 Programming language: [Python](https://github.com/python/cpython)
-- 📦 Package manager: [Pip](https://github.com/python-pip/pip)
+- 📦 Package manager: [Pip](https://github.com/pypa/pip)
 - 📚 External Libraries: `xlwt` for writing Excel files, `openpyxl` for reading Excel files, `pytest` for testing.
 
 ## 🖥️ Launch locally
