@@ -1,9 +1,12 @@
 """Excel utility functions for reading and writing data from and to Excel files"""
-
 import os
 import random
 from models import Course, Student
 import pandas as pd
+import matplotlib.pyplot as plt
+from io import BytesIO
+import seaborn as sns
+from matplotlib.font_manager import fontManager, FontProperties
 
 
 def readCoursesInfo():
@@ -65,11 +68,12 @@ def readStudentsInfo(courses, students, name):
     students.sort(key=lambda student: student.GPA, reverse=True)
 
 
-def writeResults(students_distributions, costs, courses):
+def writeResults(students_distributions, costs, courses, courses_rate_dict):
     """Writes the results of the algorithm in an Excel file
     :param students_distributions: list of lists of Student objects
     :param costs: list of costs
     :param courses: list of Course objects
+    :param courses_rate_dict: dictionary of course rates
     :return: None
     """
 
@@ -77,8 +81,39 @@ def writeResults(students_distributions, costs, courses):
     if "Results.xlsx" in os.listdir():
         os.remove("Results.xlsx")
     writer = pd.ExcelWriter('Results.xlsx', engine='xlsxwriter')
-    costs_dict = {cost: students for students, cost in zip(students_distributions, costs)}
+    workbook = writer.book
+    worksheet = workbook.add_worksheet('Plots and Results')
+    writer.sheets['Plots and Results'] = worksheet
+
+    row = 0
+    col = 0
+    plot_height = 24
+
+    for course in courses:
+        x_values = list(courses_rate_dict[course.name].keys())[:course.quota + 1]
+        y_values = list(courses_rate_dict[course.name].values())[:course.quota + 1]
+        y_values = [-y for y in y_values]
+        sns.set_style("whitegrid")
+        fig, ax = plt.subplots()
+        ax.plot(x_values, y_values, linewidth=2, alpha=0.7, color='#40BA21')
+        path = "fonts/Montserrat-Regular.ttf"
+        fontManager.addfont(path)
+        prop = FontProperties(fname=path, size=14)
+        ax.set_title(f'Success Rate for {course.name}', fontproperties=prop)
+        ax.set_xlabel('Number of Students', fontsize=12, fontproperties=prop)
+        ax.set_ylabel('Success Rate', fontsize=12, fontproperties=prop)
+        ax.tick_params(axis='both', labelsize=12)
+        ax.grid(True)
+        plt.tight_layout()
+        buffer = BytesIO()
+        plt.savefig(buffer, format='png')
+        buffer.seek(0)
+
+        worksheet.insert_image(row, col, f'{course.name}.png', {'image_data': buffer})
+        row += plot_height
+
     numeration = 1
+    costs_dict = {cost: students for students, cost in zip(students_distributions, costs)}
     for cost, students in costs_dict.items():
         totalResults = [0] * 7
         totalCourseResults = [0] * len(courses)
@@ -98,7 +133,8 @@ def writeResults(students_distributions, costs, courses):
         statistics_data = {'Total Results': totalResults, 'Total Course Results': totalCourseResults,
                            'Total Course Quotas': totalCourseQuotas, 'Total Course Names': totalCourseNames}
         df_statistics = pd.DataFrame(statistics_data)
-        df_statistics.to_excel(writer, sheet_name=f'Result {numeration}', index=False)
+        sheet_name = f'Res {numeration} | Cost {cost:.2f}'
+        df_statistics.to_excel(writer, sheet_name=sheet_name, index=False)
         data = {'Student ID': [student.ID for student in students],
                 'Student Name': [student.name for student in students],
                 'Final priority': [student.finalPriority for student in students],
@@ -107,7 +143,7 @@ def writeResults(students_distributions, costs, courses):
                     student.keywords[student.finalPriority - 1].name if student.finalPriority <= 5 else "" for student
                     in students]}
         df = pd.DataFrame(data)
-        df.to_excel(writer, sheet_name=f'Result {numeration}', startrow=len(df_statistics) + 2, index=False)
+        df.to_excel(writer, sheet_name=sheet_name, startrow=len(df_statistics) + 2, index=False)
         numeration += 1
     writer._save()
 
