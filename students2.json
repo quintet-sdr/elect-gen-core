@@ -1,0 +1,2992 @@
+[
+    {
+        "Student ID": 272,
+        "Student Name": "Student 756@innopolis.university",
+        "GPA": 3.25,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Introduction to Electronic and Logic Circuits",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 273,
+        "Student Name": "Student 523@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 274,
+        "Student Name": "Student 707@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 275,
+        "Student Name": "Student 645@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 276,
+        "Student Name": "Student 577@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 277,
+        "Student Name": "Student 542@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 278,
+        "Student Name": "Student 710@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 279,
+        "Student Name": "Student 559@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 280,
+        "Student Name": "Student 557@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 281,
+        "Student Name": "Student 574@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 282,
+        "Student Name": "Student 587@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 283,
+        "Student Name": "Student 623@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 284,
+        "Student Name": "Student 722@innopolis.university",
+        "GPA": 3.75,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 285,
+        "Student Name": "Student 686@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 286,
+        "Student Name": "Student 788@innopolis.university",
+        "GPA": 2.6666666667,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to Mechanical Engineering",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 287,
+        "Student Name": "Student 643@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 288,
+        "Student Name": "Student 801@innopolis.university",
+        "GPA": 2.3636363636,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 289,
+        "Student Name": "Student 657@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 290,
+        "Student Name": "Student 620@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 291,
+        "Student Name": "Student 612@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 292,
+        "Student Name": "Student 633@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 293,
+        "Student Name": "Student 511@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 294,
+        "Student Name": "Student 520@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 295,
+        "Student Name": "Student 514@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 296,
+        "Student Name": "Student 571@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 297,
+        "Student Name": "Student 595@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 298,
+        "Student Name": "Student 597@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 299,
+        "Student Name": "Student 605@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 300,
+        "Student Name": "Student 683@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 301,
+        "Student Name": "Student 570@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to Mechanical Engineering",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 302,
+        "Student Name": "Student 770@innopolis.university",
+        "GPA": 3.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 303,
+        "Student Name": "Student 528@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 304,
+        "Student Name": "Student 749@innopolis.university",
+        "GPA": 3.375,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 305,
+        "Student Name": "Student 611@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 306,
+        "Student Name": "Student 689@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 307,
+        "Student Name": "Student 669@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 308,
+        "Student Name": "Student 607@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 309,
+        "Student Name": "Student 569@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 310,
+        "Student Name": "Student 598@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 311,
+        "Student Name": "Student 625@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Introduction to Electronic and Logic Circuits",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 312,
+        "Student Name": "Student 522@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 313,
+        "Student Name": "Student 547@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 314,
+        "Student Name": "Student 535@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 315,
+        "Student Name": "Student 636@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 316,
+        "Student Name": "Student 541@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 317,
+        "Student Name": "Student 735@innopolis.university",
+        "GPA": 3.625,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 318,
+        "Student Name": "Student 745@innopolis.university",
+        "GPA": 3.5,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 319,
+        "Student Name": "Student 558@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 320,
+        "Student Name": "Student 573@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 321,
+        "Student Name": "Student 575@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 322,
+        "Student Name": "Student 539@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 323,
+        "Student Name": "Student 562@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 324,
+        "Student Name": "Student 704@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 325,
+        "Student Name": "Student 622@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 326,
+        "Student Name": "Student 703@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 327,
+        "Student Name": "Student 627@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 328,
+        "Student Name": "Student 715@innopolis.university",
+        "GPA": 3.875,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 329,
+        "Student Name": "Student 534@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 330,
+        "Student Name": "Student 747@innopolis.university",
+        "GPA": 3.5,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 331,
+        "Student Name": "Student 742@innopolis.university",
+        "GPA": 3.5555555556,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 332,
+        "Student Name": "Student 506@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 333,
+        "Student Name": "Student 728@innopolis.university",
+        "GPA": 3.75,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 334,
+        "Student Name": "Student 606@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 335,
+        "Student Name": "Student 618@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 336,
+        "Student Name": "Student 581@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 337,
+        "Student Name": "Student 688@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 338,
+        "Student Name": "Student 782@innopolis.university",
+        "GPA": 2.7777777778,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 339,
+        "Student Name": "Student 679@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 340,
+        "Student Name": "Student 583@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 341,
+        "Student Name": "Student 635@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 342,
+        "Student Name": "Student 538@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 343,
+        "Student Name": "Student 589@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 344,
+        "Student Name": "Student 592@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 345,
+        "Student Name": "Student 762@innopolis.university",
+        "GPA": 3.2222222222,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 346,
+        "Student Name": "Student 740@innopolis.university",
+        "GPA": 3.5714285714,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 347,
+        "Student Name": "Student 678@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 348,
+        "Student Name": "Student 733@innopolis.university",
+        "GPA": 3.6666666667,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 349,
+        "Student Name": "Student 649@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 350,
+        "Student Name": "Student 656@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 351,
+        "Student Name": "Student 513@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 352,
+        "Student Name": "Student 639@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 353,
+        "Student Name": "Student 666@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 354,
+        "Student Name": "Student 509@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 355,
+        "Student Name": "Student 533@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 356,
+        "Student Name": "Student 667@innopolis.university",
+        "GPA": 4.25,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 357,
+        "Student Name": "Student 603@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 358,
+        "Student Name": "Student 593@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 359,
+        "Student Name": "Student 585@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 360,
+        "Student Name": "Student 564@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 361,
+        "Student Name": "Student 648@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 362,
+        "Student Name": "Student 750@innopolis.university",
+        "GPA": 3.375,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 363,
+        "Student Name": "Student 677@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 364,
+        "Student Name": "Student 685@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Introduction to Electronic and Logic Circuits",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 365,
+        "Student Name": "Student 693@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 366,
+        "Student Name": "Student 641@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 367,
+        "Student Name": "Student 624@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 368,
+        "Student Name": "Student 507@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 369,
+        "Student Name": "Student 584@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 370,
+        "Student Name": "Student 572@innopolis.university",
+        "GPA": 4.625,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 371,
+        "Student Name": "Student 767@innopolis.university",
+        "GPA": 3.1111111111,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 372,
+        "Student Name": "Student 599@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 373,
+        "Student Name": "Student 654@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 374,
+        "Student Name": "Student 524@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 375,
+        "Student Name": "Student 512@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 376,
+        "Student Name": "Student 695@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 377,
+        "Student Name": "Student 708@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 378,
+        "Student Name": "Student 619@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 379,
+        "Student Name": "Student 748@innopolis.university",
+        "GPA": 3.5,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 380,
+        "Student Name": "Student 561@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 381,
+        "Student Name": "Student 738@innopolis.university",
+        "GPA": 3.625,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 382,
+        "Student Name": "Student 673@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 383,
+        "Student Name": "Student 690@innopolis.university",
+        "GPA": 4.125,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 384,
+        "Student Name": "Student 651@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 385,
+        "Student Name": "Student 805@innopolis.university",
+        "GPA": 2.2666666667,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 386,
+        "Student Name": "Student 660@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 387,
+        "Student Name": "Student 646@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 388,
+        "Student Name": "Student 741@innopolis.university",
+        "GPA": 3.5555555556,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 389,
+        "Student Name": "Student 714@innopolis.university",
+        "GPA": 3.875,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 390,
+        "Student Name": "Student 709@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 391,
+        "Student Name": "Student 549@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Introduction to Electronic and Logic Circuits",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 392,
+        "Student Name": "Student 773@innopolis.university",
+        "GPA": 2.9545454545,
+        "Keyword 1": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 2": "Introduction to Electronic and Logic Circuits",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 393,
+        "Student Name": "Student 781@innopolis.university",
+        "GPA": 2.7777777778,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 394,
+        "Student Name": "Student 803@innopolis.university",
+        "GPA": 2.2727272727,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 395,
+        "Student Name": "Student 675@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 396,
+        "Student Name": "Student 550@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 397,
+        "Student Name": "Student 566@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 398,
+        "Student Name": "Student 529@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 399,
+        "Student Name": "Student 602@innopolis.university",
+        "GPA": 4.5,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to Electronic and Logic Circuits",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 400,
+        "Student Name": "Student 545@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 401,
+        "Student Name": "Student 653@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 402,
+        "Student Name": "Student 711@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 403,
+        "Student Name": "Student 526@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 404,
+        "Student Name": "Student 697@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 405,
+        "Student Name": "Student 504@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 406,
+        "Student Name": "Student 719@innopolis.university",
+        "GPA": 3.8571428571,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 407,
+        "Student Name": "Student 586@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 408,
+        "Student Name": "Student 717@innopolis.university",
+        "GPA": 3.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 409,
+        "Student Name": "Student 580@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 410,
+        "Student Name": "Student 796@innopolis.university",
+        "GPA": 2.5,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 411,
+        "Student Name": "Student 765@innopolis.university",
+        "GPA": 3.125,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 412,
+        "Student Name": "Student 502@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 413,
+        "Student Name": "Student 753@innopolis.university",
+        "GPA": 3.3333333333,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 414,
+        "Student Name": "Student 727@innopolis.university",
+        "GPA": 3.75,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 415,
+        "Student Name": "Student 662@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 416,
+        "Student Name": "Student 758@innopolis.university",
+        "GPA": 3.25,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 417,
+        "Student Name": "Student 774@innopolis.university",
+        "GPA": 2.9,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 418,
+        "Student Name": "Student 628@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 419,
+        "Student Name": "Student 530@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 420,
+        "Student Name": "Student 521@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 421,
+        "Student Name": "Student 754@innopolis.university",
+        "GPA": 3.3333333333,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 422,
+        "Student Name": "Student 652@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 423,
+        "Student Name": "Student 543@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 424,
+        "Student Name": "Student 776@innopolis.university",
+        "GPA": 2.8510638298,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 425,
+        "Student Name": "Student 556@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 426,
+        "Student Name": "Student 699@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 427,
+        "Student Name": "Student 702@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 428,
+        "Student Name": "Student 563@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 429,
+        "Student Name": "Student 716@innopolis.university",
+        "GPA": 3.875,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 430,
+        "Student Name": "Student 726@innopolis.university",
+        "GPA": 3.75,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 431,
+        "Student Name": "Student 723@innopolis.university",
+        "GPA": 3.75,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 432,
+        "Student Name": "Student 503@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 433,
+        "Student Name": "Student 640@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 434,
+        "Student Name": "Student 519@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Introduction to Mechanical Engineering",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 435,
+        "Student Name": "Student 644@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 436,
+        "Student Name": "Student 525@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 437,
+        "Student Name": "Student 637@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 438,
+        "Student Name": "Student 517@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 439,
+        "Student Name": "Student 700@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 440,
+        "Student Name": "Student 631@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 441,
+        "Student Name": "Student 734@innopolis.university",
+        "GPA": 3.625,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 442,
+        "Student Name": "Student 629@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 443,
+        "Student Name": "Student 760@innopolis.university",
+        "GPA": 3.25,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 444,
+        "Student Name": "Student 548@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 445,
+        "Student Name": "Student 632@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 446,
+        "Student Name": "Student 594@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 447,
+        "Student Name": "Student 518@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 448,
+        "Student Name": "Student 698@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 449,
+        "Student Name": "Student 608@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 450,
+        "Student Name": "Student 579@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 451,
+        "Student Name": "Student 650@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 452,
+        "Student Name": "Student 705@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to Mechanical Engineering",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 453,
+        "Student Name": "Student 647@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 454,
+        "Student Name": "Student 527@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 455,
+        "Student Name": "Student 676@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 456,
+        "Student Name": "Student 682@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 457,
+        "Student Name": "Student 617@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 458,
+        "Student Name": "Student 761@innopolis.university",
+        "GPA": 3.2352941176,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 459,
+        "Student Name": "Student 729@innopolis.university",
+        "GPA": 3.75,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 460,
+        "Student Name": "Student 655@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 461,
+        "Student Name": "Student 718@innopolis.university",
+        "GPA": 3.8571428571,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 462,
+        "Student Name": "Student 609@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 463,
+        "Student Name": "Student 500@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 464,
+        "Student Name": "Student 616@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 465,
+        "Student Name": "Student 537@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 466,
+        "Student Name": "Student 567@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 467,
+        "Student Name": "Student 544@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 468,
+        "Student Name": "Student 732@innopolis.university",
+        "GPA": 3.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 469,
+        "Student Name": "Student 565@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Introduction to Mechanical Engineering",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 470,
+        "Student Name": "Student 642@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 471,
+        "Student Name": "Student 792@innopolis.university",
+        "GPA": 2.5454545455,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 472,
+        "Student Name": "Student 692@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 473,
+        "Student Name": "Student 665@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 474,
+        "Student Name": "Student 610@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 475,
+        "Student Name": "Student 766@innopolis.university",
+        "GPA": 3.1111111111,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 476,
+        "Student Name": "Student 630@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 477,
+        "Student Name": "Student 661@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 478,
+        "Student Name": "Student 554@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 479,
+        "Student Name": "Student 588@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 480,
+        "Student Name": "Student 501@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Introduction to Mechanical Engineering",
+        "Keyword 3": "Introduction to Electronic and Logic Circuits",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 481,
+        "Student Name": "Student 768@innopolis.university",
+        "GPA": 3.1111111111,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 482,
+        "Student Name": "Student 806@innopolis.university",
+        "GPA": 2.2142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 483,
+        "Student Name": "Student 684@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 484,
+        "Student Name": "Student 540@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to Electronic and Logic Circuits",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 485,
+        "Student Name": "Student 555@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 486,
+        "Student Name": "Student 725@innopolis.university",
+        "GPA": 3.75,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 487,
+        "Student Name": "Student 671@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 488,
+        "Student Name": "Student 694@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 489,
+        "Student Name": "Student 582@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 490,
+        "Student Name": "Student 553@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 491,
+        "Student Name": "Student 638@innopolis.university",
+        "GPA": 4.375,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Introduction to Electronic and Logic Circuits",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 492,
+        "Student Name": "Student 590@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 493,
+        "Student Name": "Student 746@innopolis.university",
+        "GPA": 3.5,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 494,
+        "Student Name": "Student 670@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 495,
+        "Student Name": "Student 736@innopolis.university",
+        "GPA": 3.625,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Introduction to Mechanical Engineering",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 496,
+        "Student Name": "Student 505@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 497,
+        "Student Name": "Student 680@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 498,
+        "Student Name": "Student 568@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 499,
+        "Student Name": "Student 772@innopolis.university",
+        "GPA": 3.0,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 500,
+        "Student Name": "Student 604@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 501,
+        "Student Name": "Student 744@innopolis.university",
+        "GPA": 3.5,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 502,
+        "Student Name": "Student 613@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 503,
+        "Student Name": "Student 510@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 504,
+        "Student Name": "Student 615@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 505,
+        "Student Name": "Student 576@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 506,
+        "Student Name": "Student 763@innopolis.university",
+        "GPA": 3.2127659574,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 507,
+        "Student Name": "Student 687@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 508,
+        "Student Name": "Student 681@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 509,
+        "Student Name": "Student 787@innopolis.university",
+        "GPA": 2.7,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 510,
+        "Student Name": "Student 724@innopolis.university",
+        "GPA": 3.75,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 511,
+        "Student Name": "Student 706@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 512,
+        "Student Name": "Student 626@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 513,
+        "Student Name": "Student 578@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 514,
+        "Student Name": "Student 775@innopolis.university",
+        "GPA": 2.8888888889,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 515,
+        "Student Name": "Student 743@innopolis.university",
+        "GPA": 3.5,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 516,
+        "Student Name": "Student 712@innopolis.university",
+        "GPA": 3.9166666667,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 517,
+        "Student Name": "Student 789@innopolis.university",
+        "GPA": 2.6,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 518,
+        "Student Name": "Student 771@innopolis.university",
+        "GPA": 3.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 519,
+        "Student Name": "Student 536@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 520,
+        "Student Name": "Student 659@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 521,
+        "Student Name": "Student 701@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 522,
+        "Student Name": "Student 621@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to Mechanical Engineering",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 523,
+        "Student Name": "Student 508@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 524,
+        "Student Name": "Student 764@innopolis.university",
+        "GPA": 3.125,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 525,
+        "Student Name": "Student 591@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 526,
+        "Student Name": "Student 515@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 527,
+        "Student Name": "Student 751@innopolis.university",
+        "GPA": 3.375,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 528,
+        "Student Name": "Student 552@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 529,
+        "Student Name": "Student 721@innopolis.university",
+        "GPA": 3.8571428571,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 530,
+        "Student Name": "Student 755@innopolis.university",
+        "GPA": 3.2857142857,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 531,
+        "Student Name": "Student 757@innopolis.university",
+        "GPA": 3.25,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 532,
+        "Student Name": "Student 596@innopolis.university",
+        "GPA": 4.5714285714,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 533,
+        "Student Name": "Student 720@innopolis.university",
+        "GPA": 3.8571428571,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 534,
+        "Student Name": "Student 730@innopolis.university",
+        "GPA": 3.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Electronic and Logic Circuits"
+    },
+    {
+        "Student ID": 535,
+        "Student Name": "Student 691@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 536,
+        "Student Name": "Student 532@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 537,
+        "Student Name": "Student 664@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 538,
+        "Student Name": "SomeRandomStudent@innopolis.university",
+        "GPA": 0.0,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 539,
+        "Student Name": "Student 759@innopolis.university",
+        "GPA": 3.25,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Introduction to Electronic and Logic Circuits",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 540,
+        "Student Name": "Student 739@innopolis.university",
+        "GPA": 3.625,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 541,
+        "Student Name": "Student 634@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Introduction to Mechanical Engineering",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 542,
+        "Student Name": "Student 778@innopolis.university",
+        "GPA": 2.8,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 543,
+        "Student Name": "Student 800@innopolis.university",
+        "GPA": 2.3636363636,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to Electronic and Logic Circuits",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Mechanical Engineering"
+    },
+    {
+        "Student ID": 544,
+        "Student Name": "Student 663@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 545,
+        "Student Name": "Student 794@innopolis.university",
+        "GPA": 2.5454545455,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 546,
+        "Student Name": "Student 696@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 547,
+        "Student Name": "Student 780@innopolis.university",
+        "GPA": 2.7777777778,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 548,
+        "Student Name": "Student 769@innopolis.university",
+        "GPA": 3.0,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Advanced Programming in C/C++ (Russian only)"
+    },
+    {
+        "Student ID": 549,
+        "Student Name": "Student 804@innopolis.university",
+        "GPA": 2.2666666667,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 550,
+        "Student Name": "Student 560@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 551,
+        "Student Name": "Student 779@innopolis.university",
+        "GPA": 2.7916666667,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 552,
+        "Student Name": "Student 668@innopolis.university",
+        "GPA": 4.1818181818,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 553,
+        "Student Name": "Student 546@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Cross-platform Mobile Development with Flutter"
+    },
+    {
+        "Student ID": 554,
+        "Student Name": "Student 713@innopolis.university",
+        "GPA": 3.875,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Introduction to Electronic and Logic Circuits",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 555,
+        "Student Name": "Student 658@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Introduction to Mechanical Engineering",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 556,
+        "Student Name": "Student 777@innopolis.university",
+        "GPA": 2.8,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 557,
+        "Student Name": "Student 791@innopolis.university",
+        "GPA": 2.5833333333,
+        "Keyword 1": "Cross-platform Mobile Development with Flutter",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 558,
+        "Student Name": "Student 551@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Introduction to Electronic and Logic Circuits",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 559,
+        "Student Name": "Student 731@innopolis.university",
+        "GPA": 3.7142857143,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 560,
+        "Student Name": "Student 600@innopolis.university",
+        "GPA": 4.5555555556,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 561,
+        "Student Name": "Student 737@innopolis.university",
+        "GPA": 3.625,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to Mechanical Engineering",
+        "Keyword 4": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 562,
+        "Student Name": "Student 752@innopolis.university",
+        "GPA": 3.375,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Cross-platform Mobile Development with Flutter",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 563,
+        "Student Name": "Student 516@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 564,
+        "Student Name": "Student 785@innopolis.university",
+        "GPA": 2.7272727273,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Electronic and Logic Circuits",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 565,
+        "Student Name": "Student 614@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 566,
+        "Student Name": "Student 531@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Cross-platform Mobile Development with Flutter",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 567,
+        "Student Name": "Student 601@innopolis.university",
+        "GPA": 4.5,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 568,
+        "Student Name": "Student 797@innopolis.university",
+        "GPA": 2.4615384615,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 569,
+        "Student Name": "Student 783@innopolis.university",
+        "GPA": 2.7777777778,
+        "Keyword 1": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 570,
+        "Student Name": "Student 672@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Advanced Programming in C/C++ (Russian only)",
+        "Keyword 3": "Cross-platform Mobile Development with Flutter",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    }
+]
