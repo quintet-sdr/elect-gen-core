@@ -1,0 +1,2722 @@
+[
+    {
+        "Student ID": 165,
+        "Student Name": "EmailWilthout@",
+        "GPA": 0.0,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 149,
+        "Student Name": "NameInsteadEmail",
+        "GPA": 0.0,
+        "Keyword 1": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 208,
+        "Student Name": "Student 1@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 178,
+        "Student Name": "Student 10@innopolis.university",
+        "GPA": 4.962962963,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 60,
+        "Student Name": "Student 100@innopolis.university",
+        "GPA": 4.3703703704,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 217,
+        "Student Name": "Student 101@innopolis.university",
+        "GPA": 4.3703703704,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Prototyping",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 225,
+        "Student Name": "Student 102@innopolis.university",
+        "GPA": 4.3703703704,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 1,
+        "Student Name": "Student 103@innopolis.university",
+        "GPA": 4.3703703704,
+        "Keyword 1": "Multi-threaded programming in C/C++ (Russian only)",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 73,
+        "Student Name": "Student 104@innopolis.university",
+        "GPA": 4.3571428571,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 47,
+        "Student Name": "Student 105@innopolis.university",
+        "GPA": 4.3414634146,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 206,
+        "Student Name": "Student 106@innopolis.university",
+        "GPA": 4.3333333333,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 46,
+        "Student Name": "Student 107@innopolis.university",
+        "GPA": 4.3333333333,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 126,
+        "Student Name": "Student 108@innopolis.university",
+        "GPA": 4.3333333333,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 56,
+        "Student Name": "Student 109@innopolis.university",
+        "GPA": 4.3333333333,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 111,
+        "Student Name": "Student 11@innopolis.university",
+        "GPA": 4.9285714286,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 124,
+        "Student Name": "Student 111@innopolis.university",
+        "GPA": 4.3333333333,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 158,
+        "Student Name": "Student 112@innopolis.university",
+        "GPA": 4.3333333333,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 107,
+        "Student Name": "Student 113@innopolis.university",
+        "GPA": 4.3214285714,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 15,
+        "Student Name": "Student 114@innopolis.university",
+        "GPA": 4.3214285714,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 29,
+        "Student Name": "Student 115@innopolis.university",
+        "GPA": 4.3103448276,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 90,
+        "Student Name": "Student 116@innopolis.university",
+        "GPA": 4.2962962963,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 135,
+        "Student Name": "Student 117@innopolis.university",
+        "GPA": 4.2962962963,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 88,
+        "Student Name": "Student 118@innopolis.university",
+        "GPA": 4.2962962963,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 45,
+        "Student Name": "Student 119@innopolis.university",
+        "GPA": 4.2962962963,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 182,
+        "Student Name": "Student 12@innopolis.university",
+        "GPA": 4.2962962963,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 172,
+        "Student Name": "Student 120@innopolis.university",
+        "GPA": 4.9259259259,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 213,
+        "Student Name": "Student 121@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 209,
+        "Student Name": "Student 122@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 145,
+        "Student Name": "Student 123@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 89,
+        "Student Name": "Student 124@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 271,
+        "Student Name": "Student 125@innopolis.university",
+        "GPA": 4.2857142857,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 212,
+        "Student Name": "Student 126@innopolis.university",
+        "GPA": 4.2682926829,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 171,
+        "Student Name": "Student 127@innopolis.university",
+        "GPA": 4.2592592593,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 70,
+        "Student Name": "Student 128@innopolis.university",
+        "GPA": 4.2592592593,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 22,
+        "Student Name": "Student 129@innopolis.university",
+        "GPA": 4.2592592593,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 248,
+        "Student Name": "Student 13@innopolis.university",
+        "GPA": 4.25,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 97,
+        "Student Name": "Student 130@innopolis.university",
+        "GPA": 4.9259259259,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 235,
+        "Student Name": "Student 131@innopolis.university",
+        "GPA": 4.25,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 127,
+        "Student Name": "Student 132@innopolis.university",
+        "GPA": 4.2413793103,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 155,
+        "Student Name": "Student 132@innopolis.university",
+        "GPA": 4.2413793103,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 239,
+        "Student Name": "Student 133@innopolis.university",
+        "GPA": 4.2333333333,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Prototyping",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 186,
+        "Student Name": "Student 134@innopolis.university",
+        "GPA": 4.2258064516,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 16,
+        "Student Name": "Student 135@innopolis.university",
+        "GPA": 4.2222222222,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 228,
+        "Student Name": "Student 136@innopolis.university",
+        "GPA": 4.2222222222,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 244,
+        "Student Name": "Student 137@innopolis.university",
+        "GPA": 4.2222222222,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 31,
+        "Student Name": "Student 138@innopolis.university",
+        "GPA": 4.2222222222,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 40,
+        "Student Name": "Student 139@innopolis.university",
+        "GPA": 4.2222222222,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 62,
+        "Student Name": "Student 14@innopolis.university",
+        "GPA": 4.9259259259,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 134,
+        "Student Name": "Student 140@innopolis.university",
+        "GPA": 4.2142857143,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 156,
+        "Student Name": "Student 141@innopolis.university",
+        "GPA": 4.2142857143,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 157,
+        "Student Name": "Student 142@innopolis.university",
+        "GPA": 4.2142857143,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 205,
+        "Student Name": "Student 143@innopolis.university",
+        "GPA": 4.2142857143,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 195,
+        "Student Name": "Student 144@innopolis.university",
+        "GPA": 4.2068965517,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 166,
+        "Student Name": "Student 145@innopolis.university",
+        "GPA": 4.2068965517,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 92,
+        "Student Name": "Student 146@innopolis.university",
+        "GPA": 4.1851851852,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 96,
+        "Student Name": "Student 147@innopolis.university",
+        "GPA": 4.1851851852,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 173,
+        "Student Name": "Student 148@innopolis.university",
+        "GPA": 4.1851851852,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 264,
+        "Student Name": "Student 149@innopolis.university",
+        "GPA": 4.1785714286,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 198,
+        "Student Name": "Student 15@innopolis.university",
+        "GPA": 4.8888888889,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 183,
+        "Student Name": "Student 150@innopolis.university",
+        "GPA": 4.1785714286,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 68,
+        "Student Name": "Student 151@innopolis.university",
+        "GPA": 4.1724137931,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 50,
+        "Student Name": "Student 152@innopolis.university",
+        "GPA": 4.1666666667,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 203,
+        "Student Name": "Student 153@innopolis.university",
+        "GPA": 4.1481481481,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 138,
+        "Student Name": "Student 154@innopolis.university",
+        "GPA": 4.1428571429,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 100,
+        "Student Name": "Student 155@innopolis.university",
+        "GPA": 4.1379310345,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 170,
+        "Student Name": "Student 156@innopolis.university",
+        "GPA": 4.1379310345,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 265,
+        "Student Name": "Student 157@innopolis.university",
+        "GPA": 4.1111111111,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 237,
+        "Student Name": "Student 158@innopolis.university",
+        "GPA": 4.1111111111,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 223,
+        "Student Name": "Student 159@innopolis.university",
+        "GPA": 4.1111111111,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 69,
+        "Student Name": "Student 16@innopolis.university",
+        "GPA": 4.8888888889,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 232,
+        "Student Name": "Student 160@innopolis.university",
+        "GPA": 4.1111111111,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 245,
+        "Student Name": "Student 161@innopolis.university",
+        "GPA": 4.1071428571,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 57,
+        "Student Name": "Student 162@innopolis.university",
+        "GPA": 4.0740740741,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 11,
+        "Student Name": "Student 163@innopolis.university",
+        "GPA": 4.0740740741,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Multi-threaded programming in C/C++ (Russian only)",
+        "Keyword 5": "Introduction to DevOps (DSAI Only)"
+    },
+    {
+        "Student ID": 143,
+        "Student Name": "Student 164@innopolis.university",
+        "GPA": 4.0740740741,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 179,
+        "Student Name": "Student 165@innopolis.university",
+        "GPA": 4.0740740741,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 93,
+        "Student Name": "Student 166@innopolis.university",
+        "GPA": 4.0689655172,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 262,
+        "Student Name": "Student 168@innopolis.university",
+        "GPA": 4.0666666667,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 41,
+        "Student Name": "Student 169@innopolis.university",
+        "GPA": 4.0357142857,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 142,
+        "Student Name": "Student 17@innopolis.university",
+        "GPA": 4.8888888889,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 21,
+        "Student Name": "Student 170@innopolis.university",
+        "GPA": 4.0333333333,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 168,
+        "Student Name": "Student 171@innopolis.university",
+        "GPA": 4.0322580645,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 153,
+        "Student Name": "Student 172@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 23,
+        "Student Name": "Student 173@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 58,
+        "Student Name": "Student 174@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 254,
+        "Student Name": "Student 175@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 141,
+        "Student Name": "Student 176@innopolis.university",
+        "GPA": 4.0,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 174,
+        "Student Name": "Student 177@innopolis.university",
+        "GPA": 3.9677419355,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 234,
+        "Student Name": "Student 178@innopolis.university",
+        "GPA": 3.9666666667,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 81,
+        "Student Name": "Student 179@innopolis.university",
+        "GPA": 3.9655172414,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 27,
+        "Student Name": "Student 18@innopolis.university",
+        "GPA": 4.8888888889,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 38,
+        "Student Name": "Student 180@innopolis.university",
+        "GPA": 3.9642857143,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 140,
+        "Student Name": "Student 181@innopolis.university",
+        "GPA": 3.9642857143,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 120,
+        "Student Name": "Student 182@innopolis.university",
+        "GPA": 3.962962963,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 117,
+        "Student Name": "Student 183@innopolis.university",
+        "GPA": 3.962962963,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 162,
+        "Student Name": "Student 184@innopolis.university",
+        "GPA": 3.9333333333,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 152,
+        "Student Name": "Student 185@innopolis.university",
+        "GPA": 3.9333333333,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 72,
+        "Student Name": "Student 186@innopolis.university",
+        "GPA": 3.9310344828,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 249,
+        "Student Name": "Student 187@innopolis.university",
+        "GPA": 3.9310344828,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 130,
+        "Student Name": "Student 188@innopolis.university",
+        "GPA": 3.9310344828,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 35,
+        "Student Name": "Student 189@innopolis.university",
+        "GPA": 3.9285714286,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 256,
+        "Student Name": "Student 19@innopolis.university",
+        "GPA": 4.8888888889,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 82,
+        "Student Name": "Student 190@innopolis.university",
+        "GPA": 3.9285714286,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 163,
+        "Student Name": "Student 191@innopolis.university",
+        "GPA": 3.9090909091,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 49,
+        "Student Name": "Student 192@innopolis.university",
+        "GPA": 3.9,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 246,
+        "Student Name": "Student 193@innopolis.university",
+        "GPA": 3.8965517241,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 192,
+        "Student Name": "Student 194@innopolis.university",
+        "GPA": 3.8965517241,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 102,
+        "Student Name": "Student 195@innopolis.university",
+        "GPA": 3.8928571429,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 65,
+        "Student Name": "Student 196@innopolis.university",
+        "GPA": 3.8888888889,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 99,
+        "Student Name": "Student 197@innopolis.university",
+        "GPA": 3.8888888889,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 37,
+        "Student Name": "Student 198@innopolis.university",
+        "GPA": 3.8787878788,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 207,
+        "Student Name": "Student 199@innopolis.university",
+        "GPA": 3.875,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 101,
+        "Student Name": "Student 2@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 222,
+        "Student Name": "Student 20@innopolis.university",
+        "GPA": 4.8571428571,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 185,
+        "Student Name": "Student 200@innopolis.university",
+        "GPA": 3.8709677419,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 24,
+        "Student Name": "Student 201@innopolis.university",
+        "GPA": 3.8620689655,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Introduction to Prototyping",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 230,
+        "Student Name": "Student 202@innopolis.university",
+        "GPA": 3.8620689655,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 255,
+        "Student Name": "Student 203@innopolis.university",
+        "GPA": 3.8387096774,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 211,
+        "Student Name": "Student 204@innopolis.university",
+        "GPA": 3.8275862069,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 115,
+        "Student Name": "Student 205@innopolis.university",
+        "GPA": 3.8275862069,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 98,
+        "Student Name": "Student 206@innopolis.university",
+        "GPA": 3.8275862069,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 39,
+        "Student Name": "Student 207@innopolis.university",
+        "GPA": 3.8,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 202,
+        "Student Name": "Student 208@innopolis.university",
+        "GPA": 3.8,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 196,
+        "Student Name": "Student 209@innopolis.university",
+        "GPA": 3.8,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 25,
+        "Student Name": "Student 21@innopolis.university",
+        "GPA": 4.8518518519,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 95,
+        "Student Name": "Student 210@innopolis.university",
+        "GPA": 3.7857142857,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 137,
+        "Student Name": "Student 211@innopolis.university",
+        "GPA": 3.78125,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 194,
+        "Student Name": "Student 212@innopolis.university",
+        "GPA": 3.7666666667,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 2,
+        "Student Name": "Student 213@innopolis.university",
+        "GPA": 3.7333333333,
+        "Keyword 1": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Multi-threaded programming in C/C++ (Russian only)",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 220,
+        "Student Name": "Student 214@innopolis.university",
+        "GPA": 3.724137931,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 216,
+        "Student Name": "Student 215@innopolis.university",
+        "GPA": 3.724137931,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 133,
+        "Student Name": "Student 216@innopolis.university",
+        "GPA": 3.724137931,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 201,
+        "Student Name": "Student 217@innopolis.university",
+        "GPA": 3.71875,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 26,
+        "Student Name": "Student 218@innopolis.university",
+        "GPA": 3.7142857143,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 87,
+        "Student Name": "Student 219@innopolis.university",
+        "GPA": 3.7096774194,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 85,
+        "Student Name": "Student 22@innopolis.university",
+        "GPA": 4.8518518519,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 197,
+        "Student Name": "Student 220@innopolis.university",
+        "GPA": 3.7096774194,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 122,
+        "Student Name": "Student 221@innopolis.university",
+        "GPA": 3.7058823529,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Introduction to Prototyping",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 169,
+        "Student Name": "Student 222@innopolis.university",
+        "GPA": 3.7,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 250,
+        "Student Name": "Student 223@innopolis.university",
+        "GPA": 3.6896551724,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 114,
+        "Student Name": "Student 224@innopolis.university",
+        "GPA": 3.6875,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 43,
+        "Student Name": "Student 225@innopolis.university",
+        "GPA": 3.6875,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 226,
+        "Student Name": "Student 226@innopolis.university",
+        "GPA": 3.6875,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 30,
+        "Student Name": "Student 227@innopolis.university",
+        "GPA": 3.6875,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 83,
+        "Student Name": "Student 228@innopolis.university",
+        "GPA": 3.6857142857,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 269,
+        "Student Name": "Student 229@innopolis.university",
+        "GPA": 3.6774193548,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 106,
+        "Student Name": "Student 23@innopolis.university",
+        "GPA": 4.8518518519,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 136,
+        "Student Name": "Student 230@innopolis.university",
+        "GPA": 3.625,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 258,
+        "Student Name": "Student 231@innopolis.university",
+        "GPA": 3.625,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 79,
+        "Student Name": "Student 232@innopolis.university",
+        "GPA": 3.59375,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 121,
+        "Student Name": "Student 233@innopolis.university",
+        "GPA": 3.5454545455,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 77,
+        "Student Name": "Student 234@innopolis.university",
+        "GPA": 3.5454545455,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 238,
+        "Student Name": "Student 235@innopolis.university",
+        "GPA": 3.5333333333,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to Prototyping",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 261,
+        "Student Name": "Student 236@innopolis.university",
+        "GPA": 3.53125,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 193,
+        "Student Name": "Student 237@innopolis.university",
+        "GPA": 3.5238095238,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Robotics Operating System: Basics, Motion, and Vision"
+    },
+    {
+        "Student ID": 210,
+        "Student Name": "Student 238@innopolis.university",
+        "GPA": 3.5161290323,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 227,
+        "Student Name": "Student 239@innopolis.university",
+        "GPA": 3.5,
+        "Keyword 1": "Introduction to DevOps (DSAI Only)",
+        "Keyword 2": "Introduction to Prototyping",
+        "Keyword 3": "Deep Dive into system design",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 129,
+        "Student Name": "Student 24@innopolis.university",
+        "GPA": 4.8518518519,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 78,
+        "Student Name": "Student 240@innopolis.university",
+        "GPA": 3.5,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 187,
+        "Student Name": "Student 241@innopolis.university",
+        "GPA": 3.4848484848,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 18,
+        "Student Name": "Student 243@innopolis.university",
+        "GPA": 3.4705882353,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 44,
+        "Student Name": "Student 244@innopolis.university",
+        "GPA": 3.4545454545,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 266,
+        "Student Name": "Student 245@innopolis.university",
+        "GPA": 3.4375,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to Prototyping",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 10,
+        "Student Name": "Student 246@innopolis.university",
+        "GPA": 3.4193548387,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Computer chess"
+    },
+    {
+        "Student ID": 105,
+        "Student Name": "Student 247@innopolis.university",
+        "GPA": 3.3928571429,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 17,
+        "Student Name": "Student 248@innopolis.university",
+        "GPA": 3.3611111111,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 19,
+        "Student Name": "Student 249@innopolis.university",
+        "GPA": 3.3333333333,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 71,
+        "Student Name": "Student 25@innopolis.university",
+        "GPA": 4.8518518519,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 241,
+        "Student Name": "Student 250@innopolis.university",
+        "GPA": 3.2777777778,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to Prototyping",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 181,
+        "Student Name": "Student 251@innopolis.university",
+        "GPA": 3.2612612613,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Introduction to Prototyping",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 28,
+        "Student Name": "Student 252@innopolis.university",
+        "GPA": 3.2352941176,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 6,
+        "Student Name": "Student 254@innopolis.university",
+        "GPA": 3.1382978723,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Introduction to DevOps (DSAI Only)",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 123,
+        "Student Name": "Student 255@innopolis.university",
+        "GPA": 3.1052631579,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 4,
+        "Student Name": "Student 256@innopolis.university",
+        "GPA": 3.0975609756,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 268,
+        "Student Name": "Student 257@innopolis.university",
+        "GPA": 3.08,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 59,
+        "Student Name": "Student 258@innopolis.university",
+        "GPA": 3.05,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 110,
+        "Student Name": "Student 259@innopolis.university",
+        "GPA": 4.8518518519,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 144,
+        "Student Name": "Student 26@innopolis.university",
+        "GPA": 3.025,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 128,
+        "Student Name": "Student 260@innopolis.university",
+        "GPA": 3.0,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 218,
+        "Student Name": "Student 261@innopolis.university",
+        "GPA": 3.0,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Prototyping",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 36,
+        "Student Name": "Student 262@innopolis.university",
+        "GPA": 2.8636363636,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 175,
+        "Student Name": "Student 264@innopolis.university",
+        "GPA": 2.8636363636,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 3,
+        "Student Name": "Student 265@innopolis.university",
+        "GPA": 2.847826087,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Introduction to DevOps (DSAI Only)",
+        "Keyword 3": "Computer chess",
+        "Keyword 4": "Multi-threaded programming in C/C++ (Russian only)",
+        "Keyword 5": "Deep Dive into system design"
+    },
+    {
+        "Student ID": 64,
+        "Student Name": "Student 266@innopolis.university",
+        "GPA": 2.8409090909,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 74,
+        "Student Name": "Student 267@innopolis.university",
+        "GPA": 2.8333333333,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 67,
+        "Student Name": "Student 268@innopolis.university",
+        "GPA": 4.8333333333,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 267,
+        "Student Name": "Student 27@innopolis.university",
+        "GPA": 2.8222222222,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 14,
+        "Student Name": "Student 270@innopolis.university",
+        "GPA": 2.8222222222,
+        "Keyword 1": "Computer chess",
+        "Keyword 2": "Computer chess",
+        "Keyword 3": "Computer chess",
+        "Keyword 4": "Computer chess",
+        "Keyword 5": "Computer chess"
+    },
+    {
+        "Student ID": 119,
+        "Student Name": "Student 271@innopolis.university",
+        "GPA": 2.8039215686,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 236,
+        "Student Name": "Student 272@innopolis.university",
+        "GPA": 2.7872340426,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 270,
+        "Student Name": "Student 275@innopolis.university",
+        "GPA": 2.7416666667,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 8,
+        "Student Name": "Student 276@innopolis.university",
+        "GPA": 2.6538461538,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "The Security and Interpretability of Machine Learning",
+        "Keyword 4": "Quantum Machine Learning",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 108,
+        "Student Name": "Student 277@innopolis.university",
+        "GPA": 2.6530612245,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 259,
+        "Student Name": "Student 28@innopolis.university",
+        "GPA": 2.6111111111,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 52,
+        "Student Name": "Student 29@innopolis.university",
+        "GPA": 2.6111111111,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 12,
+        "Student Name": "Student 3@innopolis.university",
+        "GPA": 4.8214285714,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Applied Optimization",
+        "Keyword 5": "Quantum Machine Learning"
+    },
+    {
+        "Student ID": 34,
+        "Student Name": "Student 30@innopolis.university",
+        "GPA": 4.8148148148,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 176,
+        "Student Name": "Student 31@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 53,
+        "Student Name": "Student 32@innopolis.university",
+        "GPA": 4.8148148148,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 13,
+        "Student Name": "Student 33@innopolis.university",
+        "GPA": 4.8148148148,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Applied Optimization",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 104,
+        "Student Name": "Student 34@innopolis.university",
+        "GPA": 4.8148148148,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Introduction to Prototyping",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 184,
+        "Student Name": "Student 35@innopolis.university",
+        "GPA": 4.7931034483,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 242,
+        "Student Name": "Student 36@innopolis.university",
+        "GPA": 4.7857142857,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 151,
+        "Student Name": "Student 37@innopolis.university",
+        "GPA": 4.7857142857,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 215,
+        "Student Name": "Student 38@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 160,
+        "Student Name": "Student 39@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 75,
+        "Student Name": "Student 4@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 177,
+        "Student Name": "Student 40@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 253,
+        "Student Name": "Student 41@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 189,
+        "Student Name": "Student 42@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 51,
+        "Student Name": "Student 43@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 147,
+        "Student Name": "Student 44@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 272,
+        "Student Name": "Student 45@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 150,
+        "Student Name": "Student 46@innopolis.university",
+        "GPA": 4.7777777778,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Prototyping",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 161,
+        "Student Name": "Student 47@innopolis.university",
+        "GPA": 4.75,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 118,
+        "Student Name": "Student 48@innopolis.university",
+        "GPA": 4.7142857143,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 167,
+        "Student Name": "Student 49@innopolis.university",
+        "GPA": 4.7037037037,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 103,
+        "Student Name": "Student 5@innopolis.university",
+        "GPA": 4.7037037037,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Introduction to Prototyping",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 257,
+        "Student Name": "Student 50@innopolis.university",
+        "GPA": 4.7037037037,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 63,
+        "Student Name": "Student 51@innopolis.university",
+        "GPA": 5.0,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 84,
+        "Student Name": "Student 52@innopolis.university",
+        "GPA": 4.7037037037,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 190,
+        "Student Name": "Student 53@innopolis.university",
+        "GPA": 4.7037037037,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 252,
+        "Student Name": "Student 54@innopolis.university",
+        "GPA": 4.7037037037,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 66,
+        "Student Name": "Student 55@innopolis.university",
+        "GPA": 4.6785714286,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics"
+    },
+    {
+        "Student ID": 159,
+        "Student Name": "Student 56@innopolis.university",
+        "GPA": 4.6666666667,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 109,
+        "Student Name": "Student 57@innopolis.university",
+        "GPA": 4.6666666667,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 113,
+        "Student Name": "Student 58@innopolis.university",
+        "GPA": 4.6666666667,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 224,
+        "Student Name": "Student 59@innopolis.university",
+        "GPA": 4.6428571429,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 5,
+        "Student Name": "Student 6@innopolis.university",
+        "GPA": 4.6428571429,
+        "Keyword 1": "Introduction to DevOps (DSAI Only)",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "Multi-threaded programming in C/C++ (Russian only)",
+        "Keyword 5": "Quantum Machine Learning"
+    },
+    {
+        "Student ID": 9,
+        "Student Name": "Student 60@innopolis.university",
+        "GPA": 4.6296296296,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Applied Optimization",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 214,
+        "Student Name": "Student 61@innopolis.university",
+        "GPA": 4.962962963,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 32,
+        "Student Name": "Student 62@innopolis.university",
+        "GPA": 4.6206896552,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to Prototyping",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 200,
+        "Student Name": "Student 63@innopolis.university",
+        "GPA": 4.5925925926,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 240,
+        "Student Name": "Student 64@innopolis.university",
+        "GPA": 4.5925925926,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 42,
+        "Student Name": "Student 65@innopolis.university",
+        "GPA": 4.5925925926,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 219,
+        "Student Name": "Student 66@innopolis.university",
+        "GPA": 4.5925925926,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Introduction to Neuroscience",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 125,
+        "Student Name": "Student 67@innopolis.university",
+        "GPA": 4.5925925926,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Deep Learning for Search",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 131,
+        "Student Name": "Student 68@innopolis.university",
+        "GPA": 4.5555555556,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 164,
+        "Student Name": "Student 69@innopolis.university",
+        "GPA": 4.5357142857,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 148,
+        "Student Name": "Student 7@innopolis.university",
+        "GPA": 4.5185185185,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 116,
+        "Student Name": "Student 70@innopolis.university",
+        "GPA": 4.5185185185,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Introduction to 3D Modeling",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 229,
+        "Student Name": "Student 71@innopolis.university",
+        "GPA": 4.962962963,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 94,
+        "Student Name": "Student 72@innopolis.university",
+        "GPA": 4.5185185185,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 48,
+        "Student Name": "Student 73@innopolis.university",
+        "GPA": 4.5185185185,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 243,
+        "Student Name": "Student 74@innopolis.university",
+        "GPA": 4.5185185185,
+        "Keyword 1": "Architecture of Computing Devices",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 247,
+        "Student Name": "Student 75@innopolis.university",
+        "GPA": 4.5185185185,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 55,
+        "Student Name": "Student 76@innopolis.university",
+        "GPA": 4.5,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 221,
+        "Student Name": "Student 77@innopolis.university",
+        "GPA": 4.5,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 76,
+        "Student Name": "Student 78@innopolis.university",
+        "GPA": 4.5,
+        "Keyword 1": "Front-end Web Development",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 20,
+        "Student Name": "Student 79@innopolis.university",
+        "GPA": 4.4827586207,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 61,
+        "Student Name": "Student 8@innopolis.university",
+        "GPA": 4.4814814815,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to 3D Modeling"
+    },
+    {
+        "Student ID": 199,
+        "Student Name": "Student 80@innopolis.university",
+        "GPA": 4.4814814815,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 180,
+        "Student Name": "Student 81@innopolis.university",
+        "GPA": 4.962962963,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Deep Learning for Search",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 33,
+        "Student Name": "Student 82@innopolis.university",
+        "GPA": 4.4814814815,
+        "Keyword 1": "Real-Time Scheduling Theory",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 188,
+        "Student Name": "Student 83@innopolis.university",
+        "GPA": 4.4814814815,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Real-Time Scheduling Theory",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 132,
+        "Student Name": "Student 84@innopolis.university",
+        "GPA": 4.4814814815,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 251,
+        "Student Name": "Student 85@innopolis.university",
+        "GPA": 4.4814814815,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Architecture of Computing Devices"
+    },
+    {
+        "Student ID": 154,
+        "Student Name": "Student 86@innopolis.university",
+        "GPA": 4.4516129032,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Front-end Web Development",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 86,
+        "Student Name": "Student 87@innopolis.university",
+        "GPA": 4.4482758621,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Branding & Marketing in IT industry"
+    },
+    {
+        "Student ID": 260,
+        "Student Name": "Student 88@innopolis.university",
+        "GPA": 4.4482758621,
+        "Keyword 1": "Introduction to Neuroscience",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Deep Learning for Search"
+    },
+    {
+        "Student ID": 139,
+        "Student Name": "Student 89@innopolis.university",
+        "GPA": 4.4444444444,
+        "Keyword 1": "Introduction to 3D Modeling",
+        "Keyword 2": "Front-end Web Development",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 233,
+        "Student Name": "Student 9@innopolis.university",
+        "GPA": 4.4333333333,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Introduction to 3D Modeling",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 80,
+        "Student Name": "Student 90@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Branding & Marketing in IT industry",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 112,
+        "Student Name": "Student 91@innopolis.university",
+        "GPA": 4.962962963,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Architecture of Computing Devices",
+        "Keyword 3": "Front-end Web Development",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 91,
+        "Student Name": "Student 92@innopolis.university",
+        "GPA": 4.4285714286,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Real-Time Scheduling Theory"
+    },
+    {
+        "Student ID": 231,
+        "Student Name": "Student 93@innopolis.university",
+        "GPA": 4.4074074074,
+        "Keyword 1": "MLOps engineering",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Branding & Marketing in IT industry",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 7,
+        "Student Name": "Student 94@innopolis.university",
+        "GPA": 4.4074074074,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 3": "Applied Optimization",
+        "Keyword 4": "Quantum Machine Learning",
+        "Keyword 5": "Computer chess"
+    },
+    {
+        "Student ID": 54,
+        "Student Name": "Student 95@innopolis.university",
+        "GPA": 4.4074074074,
+        "Keyword 1": "Introduction to Prototyping",
+        "Keyword 2": "Deep Learning for Search",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "Introduction to 3D Modeling",
+        "Keyword 5": "MLOps engineering"
+    },
+    {
+        "Student ID": 263,
+        "Student Name": "Student 96@innopolis.university",
+        "GPA": 4.4074074074,
+        "Keyword 1": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 2": "Introduction to Prototyping",
+        "Keyword 3": "Introduction to Neuroscience",
+        "Keyword 4": "Architecture of Computing Devices",
+        "Keyword 5": "Front-end Web Development"
+    },
+    {
+        "Student ID": 204,
+        "Student Name": "Student 97@innopolis.university",
+        "GPA": 4.4074074074,
+        "Keyword 1": "Branding & Marketing in IT industry",
+        "Keyword 2": "Real-Time Scheduling Theory",
+        "Keyword 3": "Architecture of Computing Devices",
+        "Keyword 4": "MLOps engineering",
+        "Keyword 5": "Introduction to Prototyping"
+    },
+    {
+        "Student ID": 191,
+        "Student Name": "Student 98@innopolis.university",
+        "GPA": 4.4074074074,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "MLOps engineering",
+        "Keyword 3": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+        "Keyword 4": "Branding & Marketing in IT industry",
+        "Keyword 5": "Introduction to Neuroscience"
+    },
+    {
+        "Student ID": 146,
+        "Student Name": "Student 99@innopolis.university",
+        "GPA": 4.4074074074,
+        "Keyword 1": "Deep Learning for Search",
+        "Keyword 2": "Introduction to Neuroscience",
+        "Keyword 3": "MLOps engineering",
+        "Keyword 4": "Real-Time Scheduling Theory",
+        "Keyword 5": "Architecture of Computing Devices"
+    }
+]
