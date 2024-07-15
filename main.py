@@ -10,24 +10,81 @@ success_rate_dict = {}
 courses_rate_dict = {}
 
 
-def get_course_rate(x, a, b, c, d, coeff_decrease=0.1):
-    period = d - b
-    current_period = (x - b) // period
-    coeff = 1 - coeff_decrease * current_period
-    if current_period <= 0:
+def get_course_rate(x, a, c, d, e, limit, lostPerCycle=0.1):
+    """Calculates the success rate based on the number of students in a course
+    :param x: number of students in the course
+    :param a: lower bound for the whole course
+    :param c: lower bound for the optimal one group
+    :param d: upper bound for the optimal one group
+    :param e: upper bound for the one group
+    :param limit: upper bound for the whole course
+    :param lostPerCycle: lost coefficient per cycle
+    :return: success rate
+    """
+
+    cycleMultiplier = 1 - lostPerCycle * (x // e)
+    b = (a + c) * 0.5
+    if x > limit:
+        return 0
+    if x // e == 0:
         if x < a:
             return 0
+        if x < b:
+            y1 = 0
+            y2 = cycleMultiplier * 7 / 8
+            x1 = a
+            x2 = b
+            k = (y1 - y2) / (x1 - x2)
+            b = y2 - k * x2
+            return k * x + b
+        if x < c:
+            y1 = cycleMultiplier * 7 / 8
+            y2 = cycleMultiplier
+            x1 = b
+            x2 = c
+            k = (y1 - y2) / (x1 - x2)
+            b = y2 - k * x2
+            return k * x + b
+        if x < d:
+            return cycleMultiplier
+        if x < e:
+            y1 = cycleMultiplier
+            y2 = cycleMultiplier / 2
+            x1 = d
+            x2 = e
+            k = (y1 - y2) / (x1 - x2)
+            b = y2 - k * x2
+            return k * x + b
     else:
-        x = (x - b) % period + b
-    if x < a:
-        return 0
-    if x < b:
-        return max(coeff * (x - a) ** 2, 0)
-    line = coeff * (b - a) ** 2
-    if x < c:
-        return line
-    if x < d:
-        return max(-(x - c) ** 2 * coeff + line, line / 1.6)
+        x = x % e
+        if x < a / 2:
+            return cycleMultiplier / 2
+        if x < b:
+            y1 = cycleMultiplier / 2
+            y2 = cycleMultiplier * 19 / 20
+            x1 = a / 2
+            x2 = b
+            k = (y1 - y2) / (x1 - x2)
+            b = y2 - k * x2
+            return k * x + b
+        if x < c:
+            y1 = cycleMultiplier * 19 / 20
+            y2 = cycleMultiplier
+            x1 = b
+            x2 = c
+            k = (y1 - y2) / (x1 - x2)
+            b = y2 - k * x2
+            return k * x + b
+        if x < d:
+            return cycleMultiplier
+        if x < e:
+            y1 = cycleMultiplier
+            y2 = cycleMultiplier / 2
+            x1 = d
+            x2 = e
+            k = (y1 - y2) / (x1 - x2)
+            b = y2 - k * x2
+            return k * x + b
 
 
 def course_success_rate(num_students, a, b, c, d, limit):
@@ -40,10 +97,11 @@ def course_success_rate(num_students, a, b, c, d, limit):
     :param limit: limit for the number of students
     :return: success rate
     """
+
     if num_students == 0:
-        return -15.6
+        return -0.15
     elif num_students < limit:
-        return -get_course_rate(num_students, a, b, c, d)
+        return -get_course_rate(num_students, a, b, c, d, limit)
     else:
         return 0
 
@@ -82,7 +140,7 @@ def costFunction(students, courses):
     for course in courses:
         numOfStudents = len(course.students)
         course_rate = courses_rate_dict[course.name]
-        cost += course_rate[numOfStudents] * 5
+        cost += course_rate[numOfStudents] * len(students)
     return cost
 
 
