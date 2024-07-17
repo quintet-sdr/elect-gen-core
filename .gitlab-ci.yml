@@ -56,15 +56,4 @@ release:
     - npm i -g semantic-release @semantic-release/gitlab @semantic-release/changelog @semantic-release/git @semantic-release/commit-analyzer conventional-changelog-conventionalcommits @semantic-release/npm
     - npx semantic-release 
 
-#pages:
-#  stage: deploy
-#  image: alpine:latest
-#  script:
-#    - echo
-#  artifacts:
-#    paths:
-#      - public
-#  only:
-#    refs:
-#      - master
 
