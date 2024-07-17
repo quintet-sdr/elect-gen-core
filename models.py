@@ -2,19 +2,11 @@
 
 
 class Student:
-    """Student class
-    :param ID: student ID
-    :param name: student name
-    :param GPA: student GPA
-    :param keywords: list of keywords
-    :param availableCourses: list of available courses
-    """
 
-    def __init__(self, ID, name, GPA, keywords, availableCourses):
+    def __init__(self, email, gpa, keywords, availableCourses):
         self.isDistributed = False
-        self.ID = ID
-        self.name = name
-        self.GPA = GPA
+        self.email = email
+        self.gpa = gpa
         self.keywords = keywords
         self.finalCourse = ""
         self.finalPriority = 6
@@ -22,14 +14,12 @@ class Student:
 
 
 class Course:
-    """Course class
-    :param ID: course ID
-    :param name: course name
-    :param quota: course quota
-    """
 
-    def __init__(self, ID, name, quota):
-        self.ID = ID
-        self.name = name
-        self.quota = quota
+    def __init__(self, codename, min_overall, max_overall, low_in_group, high_in_group, max_in_group):
+        self.codename = codename
+        self.min_overall = min_overall
+        self.max_overall = max_overall
+        self.low_in_group = low_in_group
+        self.high_in_group = high_in_group
+        self.max_in_group = max_in_group
         self.students = []

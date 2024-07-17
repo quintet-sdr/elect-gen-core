@@ -3,7 +3,7 @@
 import pandas as pd
 import json
 import random
-from models import Course, Student
+from core.models import Course, Student
 
 
 def excel_to_json(excel_file_path, json_file_path):
