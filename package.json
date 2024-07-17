@@ -1,0 +1,17 @@
+{
+    "name": "@SDR/elect-gen-core",
+    "version": "1.0.0",
+    "scripts": {
+        "lint": "echo 'let us pretend we are linting files...'"
+    },
+    "dependencies": {
+        "readline": "^1.3.0"
+    },
+    "engines": {
+        "npm": ">=10.2.3",
+        "node": ">=18.19.0"
+    },
+    "npmconfigset": {
+        "@SDR:registry": "https://gitlab.pg.innopolis.university/api/v4/projects/CI_PROJECT_ID/packages/npm/"
+    }
+}

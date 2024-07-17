@@ -44,24 +44,16 @@ unittests:
     when: always
     
 release:
-  image: node:20.8.1-buster-slim
   stage: release
-  before_script:
-    - apt-get update && apt-get install -y --no-install-recommends git-core ca-certificates
-    - npm install -g semantic-release @semantic-release/gitlab @semantic-release/changelog conventional-changelog-conventionalcommits @semantic-release/commit-analyzer @semantic-release/git
-  script:
-    - semantic-release
+  image: node:20.8.1-buster-slim
   only:
-    - dev-new
-#pages:
-#  stage: deploy
-#  image: alpine:latest
-#  script:
-#    - echo
-#  artifacts:
-#    paths:
-#      - public
-#  only:
-#    refs:
-#      - master
+    - main
+    - next
+  script:
+    - echo "@SDR:registry=https://${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/" > .npmrc
+    - echo "//${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${NPM_TOKEN}" >> .npmrc
+    - apt-get update && apt-get install -y --no-install-recommends git-core ca-certificates
+    - npm i -g semantic-release @semantic-release/gitlab @semantic-release/changelog @semantic-release/git @semantic-release/commit-analyzer conventional-changelog-conventionalcommits @semantic-release/npm
+    - npx semantic-release 
+
 

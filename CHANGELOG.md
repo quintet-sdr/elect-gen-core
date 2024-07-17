@@ -1,9 +1,4 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
-
-## 1.0.0 (2024-07-15)
+## 1.0.0 (2024-07-17)
 
 ### ⚠ BREAKING CHANGES
 
@@ -39,7 +34,11 @@ All notable changes to this project will be documented in this file. See
 ### Bug Fixes
 
 * .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
+* add backend port ([df86ffb](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/df86ffb354821c5023978aee290b36db48b36048))
+* delete ([90826e3](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/90826e3ccc0f9a1b3bd53b1669993e9d80db8f0d))
 * delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
+* delete the wrong changelog ([ead8e75](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ead8e75b2f19ed819353617daeed70d0a5755d13))
+* delete wrong Changelog ([1cbc499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/1cbc4992324ee7f74d9093240ea781e292af3b44))
 * fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
 * increase amount of distributions ([df11216](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/df11216351d2937a32ce5059f1962f8cae384a02))
 * increase amount of distributions ([6d8f696](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/6d8f6960ddd12afddf7ceebb5471513c8aae7fc5))
@@ -53,340 +52,45 @@ All notable changes to this project will be documented in this file. See
 * Updated CI file for changelog ([98954ac](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/98954ac74cf7667c444ad9c8dbca9fa49fbed793))
 * Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
 
-### Performance Improvements
-
-* move from openpyxl lib to pandas ([45747df](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/45747dfe4769808f589f4bab70e073dbf079632c))
-* move from openpyxl lib to pandas ([c186762](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c1867628ed240479e3744562785a84d88cf64d7e))
-* update cost function to improve quality of distribution ([e80c3e1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/e80c3e1733b62d137273a7b8e6fdbc4b9af64eab))
-* update cost function to improve quality of distribution ([55d94bd](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/55d94bda9c78e881543ba9090d80c0c83f9e44e4))
-* update cost function to improve quality of distribution ([3f9abf7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/3f9abf7a47ef08daadc92d933199c69d73d4bdc8))
-* update cost function to improve quality of distribution ([e2ae7fc](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/e2ae7fca87711bbd1330fbceffa3e057e95a88fb))
-
-## 1.0.0 (2024-07-15)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* change input files type (.xlsx -> .json) ([bc7986a](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bc7986affb34a97c1ef1603512d7c1de4cd2f730))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* improve cost function ([2047da8](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2047da84deda56ca509b201776619f22c0993ff1))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* update graphs params ([7eafc80](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7eafc80279d5fc6f7cd93b4b48f3a28b90e272be))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* increase amount of distributions ([6d8f696](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/6d8f6960ddd12afddf7ceebb5471513c8aae7fc5))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* update CLI interface ([bf0910d](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bf0910d5ff6dd110f072587be910ace155c90c67))
-* update requirements.txt ([5962941](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/59629412c5c4aaaa3bdfcb10f59ffd5e44df082f))
-* update requirements.txt ([9051d27](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9051d27ed60546f1ef67bb28911a1b7ede7e6512))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-### Performance Improvements
-
-* move from openpyxl lib to pandas ([c186762](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c1867628ed240479e3744562785a84d88cf64d7e))
-* update cost function to improve quality of distribution ([3f9abf7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/3f9abf7a47ef08daadc92d933199c69d73d4bdc8))
-* update cost function to improve quality of distribution ([e2ae7fc](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/e2ae7fca87711bbd1330fbceffa3e057e95a88fb))
-
-## 1.0.0 (2024-07-12)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* change input files type (.xlsx -> .json) ([bc7986a](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bc7986affb34a97c1ef1603512d7c1de4cd2f730))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* increase amount of distributions ([6d8f696](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/6d8f6960ddd12afddf7ceebb5471513c8aae7fc5))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* update CLI interface ([bf0910d](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bf0910d5ff6dd110f072587be910ace155c90c67))
-* update requirements.txt ([9051d27](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9051d27ed60546f1ef67bb28911a1b7ede7e6512))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-### Performance Improvements
-
-* move from openpyxl lib to pandas ([c186762](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c1867628ed240479e3744562785a84d88cf64d7e))
-
-## 1.0.0 (2024-07-11)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* change input files type (.xlsx -> .json) ([bc7986a](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bc7986affb34a97c1ef1603512d7c1de4cd2f730))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* increase amount of distributions ([6d8f696](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/6d8f6960ddd12afddf7ceebb5471513c8aae7fc5))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* update CLI interface ([bf0910d](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bf0910d5ff6dd110f072587be910ace155c90c67))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-11)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* change input files type (.xlsx -> .json) ([bc7986a](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bc7986affb34a97c1ef1603512d7c1de4cd2f730))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* increase amount of distributions ([6d8f696](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/6d8f6960ddd12afddf7ceebb5471513c8aae7fc5))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* update CLI interface ([bf0910d](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bf0910d5ff6dd110f072587be910ace155c90c67))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-11)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* change input files type (.xlsx -> .json) ([bc7986a](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bc7986affb34a97c1ef1603512d7c1de4cd2f730))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* update CLI interface ([bf0910d](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bf0910d5ff6dd110f072587be910ace155c90c67))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-11)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* change input files type (.xlsx -> .json) ([bc7986a](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bc7986affb34a97c1ef1603512d7c1de4cd2f730))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* update CLI interface ([bf0910d](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bf0910d5ff6dd110f072587be910ace155c90c67))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-11)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* update CLI interface ([bf0910d](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bf0910d5ff6dd110f072587be910ace155c90c67))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-11)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* update CLI interface ([bf0910d](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/bf0910d5ff6dd110f072587be910ace155c90c67))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-11)
-
-### ⚠ BREAKING CHANGES
-
-* add support for JSON files
-
-### Features
-
-* add support for JSON files ([ade7c82](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/ade7c8280ad972ca6d7fd770ce8ce2d11a478f72))
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-10)
-
-### Features
-
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* **algorithm:** add course statistics to writeResults function ([d3dadbe](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d3dadbeb415371aa4cf9d8d457e537cf2ca65180))
-* Changelog test ([0680bf6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0680bf6a224aea47b5cc6cb727bb3a912f4022a9))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update ci ([5c88811](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5c888113a97d1d67979fd16395c5686baccddfd7))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-* Update yml for Changelog ([4dccd84](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/4dccd845aa69e69c196e29b088f3320840aff56b))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* fixed CI ([9a07e96](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/9a07e96b4586c78607098ee71f219a1f2d66f969))
-* merge conflict resolved ([b851499](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b8514992d057627d328e36324ce94e75b42352fe))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-10)
-
-### Features
-
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
-* Updated CI file for changelog ([746db13](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/746db13c5023d626dc12ba662a806626d81e8e7d))
-
-## 1.0.0 (2024-07-10)
-
-### Features
-
-* added cfg file for changelog ([c7769c0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c7769c07196d0d6a5069fbe011e62a2150857b25))
-* Initial commit ([0e676ae](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0e676aeba35e26f7f17ba42d89a791b898f55a7e))
-* Initial commit ([97d4824](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/97d482494a8fe0fe6a5067d4470d44a2e6839df6))
-* Update file for changelog ([7ee3684](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7ee3684064b2743e17030d3b0a42bd1f1fa80157))
-* Update file for changelog ([2dcc2b1](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/2dcc2b1a6393c672136b1ee39c721a8bab009d16))
-
-### Bug Fixes
-
-* .gitignore ([a4ddd3f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/a4ddd3fda87fe240fd3380a567e5bbf995361a21))
-* delete .idea ([d915be7](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/d915be7d2504673b467af2a1b76ef59ef7724e55))
+### Miscellaneous Chores
+
+* add functions and files documentation ([c071564](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c07156451f59866e737db9679cbfd5a91c40defc))
+* add functions and files documentation ([eaa849b](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/eaa849b6f6dc4d385232aeb483552e4cad753be3))
+* license ([069d366](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/069d366d793ef8f4515e34d312d4617423772c38))
+* Release 1.0.0 [skip ci] ([eb12833](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/eb12833c4850669c97d6e8dd7fb46cabfc9faa80))
+* Release 1.0.0 [skip ci] ([26b0db3](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/26b0db3b6e004103a2a16c6a58a64bf8f1382a0e))
+* Release 1.0.0 [skip ci] ([5638537](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/5638537be0cc9f8d3023ca478aeee33b6b118e6e))
+* Release 1.0.0 [skip ci] ([8e59d61](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/8e59d616ef480cc4ced56a7876bcd0dc04918992))
+* Release 1.0.0 [skip ci] ([b979dcb](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b979dcb618087a9a721eb2f7cdf2da04b6b3ef5e))
+* Release 1.0.0 [skip ci] ([3cf492e](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/3cf492e0e3a1eb999bb855502b952d22ed903656))
+* Release 1.0.0 [skip ci] ([64ba0a6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/64ba0a6c12eda1aa8be164a0b518ef3e3a1c91c3))
+* Release 1.0.0 [skip ci] ([68151ef](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/68151ef867d6e2594b93e629f060f701d727b0f0))
+* Release 1.0.0 [skip ci] ([fd53ce2](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/fd53ce20c351a701f8d1855ceed4bf7ccefb8dda))
+* Release 1.0.0 [skip ci] ([c06233c](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/c06233c0bf0c6fda0d49e3999ab3a22816ba53bf))
+* Release 1.0.0 [skip ci] ([01d9c10](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/01d9c10c25c56e612319774b51e1a7d361068ae1))
+* Release 1.0.0 [skip ci] ([af25a45](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/af25a450e41555be3d3a89f33c840acba4b3e312))
+* Release 1.0.0 [skip ci] ([cb098ef](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/cb098ef297424df393a0cb0f1495f06ce8ad17d8))
+* Release 1.0.0 [skip ci] ([81ebcde](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/81ebcde3fcb57f7cc597466cccaa7d6a3fc728f3))
+* Release 1.0.0 [skip ci] ([3abcb87](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/3abcb879581714582497bf75968c4b472c2ab7a6))
+* Release 1.0.0 [skip ci] ([e4eb426](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/e4eb426c6844594fa4dc70b35734f61ec0e63132))
+* Release 1.0.0 [skip ci] ([b510619](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b51061985edf1190043a9387b00110aed7932487))
+* Release 1.0.0 [skip ci] ([b0bbbd2](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/b0bbbd2717d060bc90065e404b48dc51299ff6f1))
+* Release 1.0.0 [skip ci] ([83237a4](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/83237a410553b558274ad8f544fc2e8d736e51fa))
+* Release 1.0.0 [skip ci] ([cd698be](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/cd698be3846398ae54581b19282f8df9c1419ac4))
+* Release 1.0.0 [skip ci] ([34b4e07](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/34b4e07f4e12daacc166a7f81362759669cafc87))
+* Release 1.0.0 [skip ci] ([69d3d5a](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/69d3d5a608569864ca42b9d29a8f59657796620c))
+* Release 1.0.0 [skip ci] ([89f9c98](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/89f9c98b9cd462822366b11eb36be71f5468faea))
+* Release 1.0.0 [skip ci] ([06d0586](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/06d0586c2709cc596feb440a3c9a1be32701a7f4))
+* Release 1.0.0 [skip ci] ([78422da](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/78422dab28cd19b6a199b87d6bbe742b1dd8c6a7))
+* **release:** 1.0.0 [skip ci] ([7aab95f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/7aab95ff2e89130f530eb608084de127691d7ca2))
+* **release:** 1.0.0 [skip ci] ([083f8ac](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/083f8ac4a621ca3056d08aef0985882fb7562386))
+* **release:** 1.0.0 [skip ci] ([3a43309](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/3a433099b2a5b3b49bdebb7eb567b2d2ea8942e4))
+* update license ([0472fd0](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0472fd0903678d35ee383edce1b6b0b4d5acdbba))
+* update README.md ([f2c5070](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/f2c5070abcd48b59b129f7ce7582229a1f5ba13c))
+* update README.md ([1c8c4bc](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/1c8c4bc6777955db67ca957046d8d570849e2713))
+* update README.md ([37b638f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/37b638f56bfeb6c5381e80b2d6ff88408ceb103a))
+* update README.md ([0c60287](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/0c60287d973474cd0d7d6b382771836a7913949a))
+* update README.md ([e55a78f](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/e55a78f86a66b4543ff6c4c2352dc38d1d86bdc3))
+* updated README.md ([eb95489](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/eb954897013eeb366474cbb55a4109888255b829))
+* updated README.md ([29853d6](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/29853d60be3a192d971e08c92a8d7dd35519e22b))
+* updated README.md ([e6d8345](https://gitlab.pg.innopolis.university/sdr-sum24/elect-gen-core/commit/e6d8345ce4c27ec6ed7f0683af28910a98e19e23))
