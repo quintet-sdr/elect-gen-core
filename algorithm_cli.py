@@ -2,7 +2,7 @@
 
 import argparse
 from main import startBasicAlgorithm
-from json_util import excel_to_json, format_json_file, readCoursesInfoJson
+from json_util import excel_to_json, format_json_file, readCoursesInfoJson, readStudentsInfoJson
 from excel_util import writeResults
 import json
 
@@ -13,7 +13,7 @@ def main():
     parser = argparse.ArgumentParser(prog='elect-gen-core', description="Student Course Allocation System")
     parser.add_argument('--convert', action='store_true', help='Convert Excel files to JSON')
     parser.add_argument('--courses', type=str, help='Path to courses Excel file')
-    parser.add_argument('--students1', type=str, help='Path to first students Excel file')
+    parser.add_argument('--students', type=str, help='Path to first students Excel file')
     parser.add_argument('--students2', type=str, help='Path to second students Excel file')
     parser.add_argument('--output', type=str, help='Path to output JSON file')
 
@@ -24,7 +24,7 @@ def main():
         format_json_file(excel_to_json(args.courses, 'courses.json'))
         print('Courses converted to JSON')
         print('Converting to JSON...')
-        format_json_file(excel_to_json(args.students1, 'students1.json'))
+        format_json_file(excel_to_json(args.students, 'students1.json'))
         print('Students1 converted to JSON')
         print('Converting to JSON...')
         format_json_file(excel_to_json(args.students2, 'students2.json'))
@@ -36,16 +36,17 @@ def main():
             json.dump(students, f_out, indent=4)
             print('Students merged')
     else:
-        courses = readCoursesInfoJson('courses.json')
-        best_distributions, best_distribution_costs, courses_rate_dict = startBasicAlgorithm(args.students1,
-                                                                                             args.courses)
+        courses = readCoursesInfoJson(args.courses)
+        students = readStudentsInfoJson(args.students)
+        best_distributions, best_distribution_costs, courses_rate_dict = startBasicAlgorithm(students,
+                                                                                             courses)
 
-        writeResults(best_distributions, best_distribution_costs, courses, courses_rate_dict)
+        # writeResults(best_distributions, best_distribution_costs, courses, courses_rate_dict)
 
         all_distributions = {}
         print('Writing output in JSON...')
         for i, distribution in enumerate(best_distributions, 1):
-            distribution_data = [{'student': s.ID, 'course': s.finalCourse} for s in distribution]
+            distribution_data = [{'student': s.email, 'course': s.finalCourse} for s in distribution]
             all_distributions[f'Distribution {i}, Cost: {best_distribution_costs[i - 1]}'] = distribution_data
 
         with open(args.output, 'w') as f:

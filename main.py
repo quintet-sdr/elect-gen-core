@@ -4,8 +4,8 @@
 import copy
 import numpy as np
 import random
-from core.json_util import readCoursesInfoJson, readStudentsInfoJson
-from core.models import Course, Student
+from json_util import readCoursesInfoJson, readStudentsInfoJson
+from models import Course, Student
 
 success_rate_dict = {}
 courses_rate_dict = {}
@@ -251,26 +251,9 @@ def max_qouta_course(courses):
 def startBasicAlgorithm(students_json, courses_json):
     global success_rate_dict
     # print("Reading courses...")
-    courses = []
-    for course_data in courses_json:
-        codename = course_data.codename
-        min_overall = int(course_data.min_overall)
-        low_in_group = int(course_data.low_in_group)
-        high_in_group = int(course_data.high_in_group)
-        max_in_group = int(course_data.max_in_group)
-        max_overall = int(course_data.max_overall)
-        courses.append(Course(codename, min_overall, max_overall, low_in_group, high_in_group, max_in_group))
+    courses = courses_json
     # print("Courses read")
-    students = []
-    for student_data in students_json:
-        email = student_data.email
-        GPA = float(student_data.gpa)
-        keywords = [student_data.priority_1, student_data.priority_2, student_data.priority_3, student_data.priority_4,
-                    student_data.priority_5]
-        availableCourses = keywords.copy()  # Assuming the available courses are the same as the keywords
-
-        students.append(Student(email, GPA, keywords, availableCourses))
-    students.sort(key=lambda student: student.gpa, reverse=True)
+    students = students_json
 
     # print("Reading students...")
     # readStudentsInfoJson(courses, students, students_file_path)

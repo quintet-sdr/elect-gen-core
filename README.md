@@ -35,7 +35,7 @@ To use the system, follow these steps:
    To convert Excel files to JSON and run the distribution algorithm, execute the following command in your terminal:
 
 ```shell
-python algorithm_cli.py --convert --courses Courses.xlsx --students1 Students1.xlsx --students2 Students2.xlsx --output path/to/students.json
+python algorithm_cli.py --convert --courses Courses.xlsx --students Students1.xlsx --students2 Students2.xlsx --output path/to/students.json
 ```
 
 This command will convert the specified Excel files for courses and students into JSON format, merge the student
@@ -44,7 +44,7 @@ information.
 To run algorithm with converted JSON files, execute the following command in your terminal:
 
 ```shell
-python algorithm_cli.py --courses path\to\courses.json --students1 path\to\students.json --output path\to\distribution.json
+python algorithm_cli.py --courses path\to\courses.json --students path\to\students.json --output path\to\distribution.json
 ```
 
 Available flags for converting:

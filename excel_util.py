@@ -1,7 +1,7 @@
 """Excel utility functions for reading and writing data from and to Excel files"""
 import os
 import random
-from core.models import Course, Student
+from models import Course, Student
 import pandas as pd
 import matplotlib.pyplot as plt
 from io import BytesIO

@@ -1,77 +1,197 @@
 [
-    {
-        "ID": 1,
-        "Course": "Branding & Marketing in IT industry",
-        "Quota": 80
-    },
-    {
-        "ID": 2,
-        "Course": "Introduction to 3D Modeling",
-        "Quota": 60
-    },
-    {
-        "ID": 3,
-        "Course": "Deep Learning for Search",
-        "Quota": 40
-    },
-    {
-        "ID": 4,
-        "Course": "MLOps Engineering",
-        "Quota": 40
-    },
-    {
-        "ID": 5,
-        "Course": "Front-end Web Development",
-        "Quota": 120
-    },
-    {
-        "ID": 6,
-        "Course": "Introduction to Neuroscience",
-        "Quota": 40
-    },
-    {
-        "ID": 7,
-        "Course": "Introduction to Prototyping",
-        "Quota": 40
-    },
-    {
-        "ID": 8,
-        "Course": "Architecture of Computing Devices",
-        "Quota": 40
-    },
-    {
-        "ID": 9,
-        "Course": "Real-Time Scheduling Theory",
-        "Quota": 28
-    },
-    {
-        "ID": 10,
-        "Course": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
-        "Quota": 40
-    },
-    {
-        "ID": 11,
-        "Course": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
-        "Quota": 40
-    },
-    {
-        "ID": 12,
-        "Course": "Cross-platform Mobile Development with Flutter",
-        "Quota": 40
-    },
-    {
-        "ID": 13,
-        "Course": "Advanced Programming in C/C++ (Russian only)",
-        "Quota": 40
-    },
-    {
-        "ID": 14,
-        "Course": "Introduction to Mechanical Engineering",
-        "Quota": 40
-    },
-    {
-        "ID": 15,
-        "Course": "Introduction to Electronic and Logic Circuits",
-        "Quota": 40
-    }
+  {
+    "codename": "brand-market",
+    "type": "tech",
+    "full_name": "Branding & Marketing in IT industry",
+    "short_name": "Branding and Marketing in IT",
+    "description": "desc1",
+    "instructor": "tmp1",
+    "min_overall": "10",
+    "max_overall": "80",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "3d-intro",
+    "type": "tech",
+    "full_name": "Introduction to 3D Modeling",
+    "short_name": "3D Modeling",
+    "description": "desc2",
+    "instructor": "tmp2",
+    "min_overall": "10",
+    "max_overall": "60",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "learn-for-search",
+    "type": "tech",
+    "full_name": "Deep Learning for Search",
+    "short_name": "Learn forSearch",
+    "description": "desc3",
+    "instructor": "tmp3",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "mlops-eng",
+    "type": "tech",
+    "full_name": "MLOps Engineering",
+    "short_name": "MLops",
+    "description": "desc4",
+    "instructor": "tmp4",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "front-end-dev",
+    "type": "tech",
+    "full_name": "Front-end Web Development",
+    "short_name": "Front-end Development",
+    "description": "desc5",
+    "instructor": "tmp5",
+    "min_overall": "10",
+    "max_overall": "120",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "neuro-intro",
+    "type": "tech",
+    "full_name": "Introduction to Neuroscience",
+    "short_name": "Neuroscience",
+    "description": "desc6",
+    "instructor": "tmp6",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "prototype-intro",
+    "type": "tech",
+    "full_name": "Introduction to Prototyping",
+    "short_name": "Prototyping",
+    "description": "desc7",
+    "instructor": "tmp7",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "computing-arch",
+    "type": "tech",
+    "full_name": "Architecture of Computing Devices",
+    "short_name": "Computing Devices Architecture",
+    "description": "desc8",
+    "instructor": "tmp8",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "real-time-scheldue",
+    "type": "tech",
+    "full_name": "Real-Time Scheduling Theory",
+    "short_name": "Schelduling",
+    "description": "desc9",
+    "instructor": "tmp9",
+    "min_overall": "10",
+    "max_overall": "28",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "robotics-intro",
+    "type": "tech",
+    "full_name": "Introduction to Robotics Operating System: Basics, Motion, and Vision",
+    "short_name": "Robotics",
+    "description": "desc10",
+    "instructor": "tmp10",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "lambda-calculus",
+    "type": "tech",
+    "full_name": "Lambda-Calculus, Algebra, Machinery and Logic for Formal Program Semantics",
+    "short_name": "Lambda Calculus Algebra",
+    "description": "desc11",
+    "instructor": "tmp11",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "flutter-dev",
+    "type": "tech",
+    "full_name": "Cross-platform Mobile Development with Flutter",
+    "short_name": "Flutter Development",
+    "description": "desc12",
+    "instructor": "tmp12",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "adv-c-cpp",
+    "type": "tech",
+    "full_name": "Advanced Programming in C/C++ (Russian only)",
+    "short_name": "C and C++ Advanced",
+    "description": "desc13",
+    "instructor": "tmp13",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "mechanical-intro",
+    "type": "tech",
+    "full_name": "Introduction to Mechanical Engineering",
+    "short_name": "Mecganical engineering",
+    "description": "desc14",
+    "instructor": "tmp14",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  },
+  {
+    "codename": "electro-logic-intro",
+    "type": "tech",
+    "full_name": "Introduction to Electronic and Logic Circuits",
+    "short_name": "Electronic and logic circuits",
+    "description": "desc15",
+    "instructor": "tmp15",
+    "min_overall": "10",
+    "max_overall": "40",
+    "low_in_group": "15",
+    "high_in_group": "30",
+    "max_in_group": "32"
+  }
 ]
