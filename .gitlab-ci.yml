@@ -44,7 +44,7 @@ unittests:
     when: always
     
 release:
-  stage: build
+  stage: release
   image: node:20.8.1-buster-slim
   only:
     - main
