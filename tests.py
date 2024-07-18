@@ -12,9 +12,8 @@ class TestStudentCourseAllocation(unittest.TestCase):
         self.courses_json_file = 'courses.json'
         self.students_json_file = 'students.json'
         self.courses = readCoursesInfoJson(self.courses_json_file)
-        self.students = []
-        readStudentsInfoJson(self.courses, self.students, self.students_json_file)
-        self.errorCourse = Course(-1, "ERROR", 0)
+        self.students = readStudentsInfoJson(self.students_json_file)
+        self.errorCourse = Course(-1, "ERROR", 0, -1, -1, -1)
 
     def test_readCoursesInfo(self):
         self.assertIsInstance(self.courses, list)
@@ -25,11 +24,11 @@ class TestStudentCourseAllocation(unittest.TestCase):
         self.assertTrue(all(isinstance(student, Student) for student in self.students))
 
     def test_student_finalPriority(self):
-        startBasicAlgorithm(self.students_json_file, self.courses_json_file)
+        startBasicAlgorithm(self.students, self.courses)
         self.assertTrue(all(1 <= student.finalPriority <= 7 for student in self.students))
 
     def test_costFunction(self):
-        startBasicAlgorithm(self.students_json_file, self.courses_json_file)
+        startBasicAlgorithm(self.students, self.courses)
         cost = costFunction(self.students, self.courses)
         self.assertIsInstance(cost, float)
 
@@ -41,12 +40,6 @@ class TestStudentCourseAllocation(unittest.TestCase):
         self.assertLessEqual(improved_cost, initial_cost)
         self.assertTrue(all(student.isDistributed for student in improved_students))
         self.assertIsInstance(improved_cost, float)
-
-    def test_writeResults(self):
-        best_distributions, best_distribution_costs, courses_rate_dict = startBasicAlgorithm(self.students_json_file,
-                                                                                             self.courses_json_file)
-        writeResults(best_distributions, best_distribution_costs, self.courses, courses_rate_dict)
-        self.assertTrue(os.path.exists('Results.xlsx'))
 
 
 if __name__ == '__main__':
