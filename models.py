@@ -13,6 +13,7 @@ class Student:
         self.availableCourses = availableCourses
 
 
+
 class Course:
 
     def __init__(self, codename, min_overall, max_overall, low_in_group, high_in_group, max_in_group):

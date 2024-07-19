@@ -5,7 +5,7 @@ from models import Course, Student
 import pandas as pd
 import matplotlib.pyplot as plt
 from io import BytesIO
-import seaborn as sns
+# import seaborn as sns
 from matplotlib.font_manager import fontManager, FontProperties
 
 
@@ -93,7 +93,6 @@ def writeResults(students_distributions, costs, courses, courses_rate_dict):
         x_values = list(courses_rate_dict[course.name].keys())[:course.quota + 1]
         y_values = list(courses_rate_dict[course.name].values())[:course.quota + 1]
         y_values = [-y for y in y_values]
-        sns.set_style("whitegrid")
         fig, ax = plt.subplots()
         ax.plot(x_values, y_values, linewidth=2, alpha=0.7, color='#40BA21')
         path = "fonts/Montserrat-Regular.ttf"
